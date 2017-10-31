@@ -1,0 +1,1232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AndisheDBGolestanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TVNBranchDataView">
+    <Key>
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="BranchTypeCode" />
+      <PropertyRef Name="Amp" />
+      <PropertyRef Name="FmlCode" />
+      <PropertyRef Name="SelCode" />
+      <PropertyRef Name="BranchSrl" />
+      <PropertyRef Name="RgnCode" />
+      <PropertyRef Name="CityCode" />
+      <PropertyRef Name="PwrCnt" />
+      <PropertyRef Name="RdgSrl" />
+      <PropertyRef Name="CrDbTot" />
+      <PropertyRef Name="PresureCode" />
+      <PropertyRef Name="TrfCode" />
+      <PropertyRef Name="WorkDayCode" />
+      <PropertyRef Name="RdrCode" />
+      <PropertyRef Name="CoCode" />
+      <PropertyRef Name="GeoState" />
+      <PropertyRef Name="SmartCounter" />
+      <PropertyRef Name="RealPower" />
+      <PropertyRef Name="DimandMeter" />
+      <PropertyRef Name="BranchModifiedDate" />
+      <PropertyRef Name="BuiltUpArea" />
+    </Key>
+    <Property Name="BranchCode" Type="Int32" Nullable="false" />
+    <Property Name="OwnerCode" Type="Int32" />
+    <Property Name="OwnerFamily" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OwnerName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="BranchTypeCode" Type="Byte" Nullable="false" />
+    <Property Name="Phs" Type="Byte" />
+    <Property Name="Amp" Type="Int32" Nullable="false" />
+    <Property Name="VoltCode" Type="Byte" />
+    <Property Name="trfHeader" Type="Decimal" Precision="2" Scale="0" />
+    <Property Name="HomeAdderss" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="HomePoNum" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="FmlCode" Type="Int16" Nullable="false" />
+    <Property Name="SelCode" Type="Byte" Nullable="false" />
+    <Property Name="BranchSrl" Type="Int32" Nullable="false" />
+    <Property Name="RgnCode" Type="Int16" Nullable="false" />
+    <Property Name="CityCode" Type="Int16" Nullable="false" />
+    <Property Name="VillageCode" Type="Int16" />
+    <Property Name="PwrCnt" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="OrgCode" Type="Decimal" Precision="8" Scale="0" />
+    <Property Name="RdgSrl" Type="Int32" Nullable="false" />
+    <Property Name="PwrIcn" Type="Decimal" Precision="8" Scale="2" />
+    <Property Name="PwrIcnExpDate" Type="DateTime" Precision="3" />
+    <Property Name="ActTypeCode" Type="Decimal" Precision="8" Scale="0" />
+    <Property Name="BranchStatCode" Type="Byte" />
+    <Property Name="CrDBBranchSale" Type="Int64" />
+    <Property Name="CrDbTot" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ValidationStatusName" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="OfficeAddressCode" Type="Int32" />
+    <Property Name="HomeAddressCode" Type="Int32" />
+    <Property Name="BranchAddressCode" Type="Int32" />
+    <Property Name="DecodeBranchKindCode" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="BranchKindCode" Type="Byte" />
+    <Property Name="GeoAreaCodeName" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="PostType" Type="Int16" />
+    <Property Name="PresureCode" Type="Byte" Nullable="false" />
+    <Property Name="ServiceCode" Type="Byte" />
+    <Property Name="BranchCntractDate" Type="DateTime" Precision="3" />
+    <Property Name="BranchCreatDate" Type="DateTime" Precision="3" />
+    <Property Name="TmpExpireDate" Type="DateTime" Precision="3" />
+    <Property Name="OwnerNatCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ShomareShenasname" Type="Int32" />
+    <Property Name="IssuedFrom" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="FatherName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="TrfCode" Type="Decimal" Precision="4" Scale="0" Nullable="false" />
+    <Property Name="WorkDayCode" Type="Int16" Nullable="false" />
+    <Property Name="RdrCode" Type="Int16" Nullable="false" />
+    <Property Name="InstlCntrCode" Type="Byte" />
+    <Property Name="InstallDate3Rate" Type="DateTime" Precision="3" />
+    <Property Name="ChngCntrCode" Type="Byte" />
+    <Property Name="CrDbOtherCost" Type="Int64" />
+    <Property Name="SpecialCode" Type="Int16" />
+    <Property Name="Adress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNo" Type="String" MaxLength="11" FixedLength="true" Unicode="true" />
+    <Property Name="FixedTel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="CoCode" Type="Int16" Nullable="false" />
+    <Property Name="FabrikNumber" Type="String" MaxLength="22" FixedLength="false" Unicode="false" />
+    <Property Name="PrdcrCode" Type="Int16" />
+    <Property Name="CntrKind" Type="Byte" />
+    <Property Name="EshterakCode" Type="String" MaxLength="92" FixedLength="false" Unicode="false" />
+    <Property Name="IdentityCode" Type="String" MaxLength="92" FixedLength="false" Unicode="false" />
+    <Property Name="GeoState" Type="Byte" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Precision="2" Scale="0" />
+    <Property Name="SfscTrfCode" Type="Decimal" Precision="4" Scale="0" />
+    <Property Name="CategoryCode" Type="Byte" />
+    <Property Name="Expr1" Type="Decimal" Precision="4" Scale="0" />
+    <Property Name="CounterCode" Type="Int32" />
+    <Property Name="QtyDgt" Type="Int16" />
+    <Property Name="UpdInstDate" Type="DateTime" Precision="3" />
+    <Property Name="LastReadDate" Type="DateTime" Precision="3" />
+    <Property Name="CntrUninsDate" Type="DateTime" Precision="3" />
+    <Property Name="CntrCoef" Type="Double" />
+    <Property Name="CounterTypeCode" Type="Int16" />
+    <Property Name="CntrStatCode" Type="Byte" />
+    <Property Name="DurationType" Type="Byte" />
+    <Property Name="InstallDate" Type="DateTime" Precision="3" />
+    <Property Name="TimerCode" Type="Byte" />
+    <Property Name="UpdUninstDate" Type="DateTime" Precision="3" />
+    <Property Name="SmartCounter" Type="Int16" Nullable="false" />
+    <Property Name="CalCode" Type="Byte" />
+    <Property Name="PolompNum" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="TrfType" Type="Byte" />
+    <Property Name="ownerTypeCode" Type="Int32" />
+    <Property Name="GeoAreaCode" Type="Int16" />
+    <Property Name="TmpFld6" Type="Int64" />
+    <Property Name="NewBranchCode" Type="Int64" />
+    <Property Name="RealPower" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="DomainCode" Type="Int32" />
+    <Property Name="DimandMeter" Type="Int32" Nullable="false" />
+    <Property Name="CustomerStatus" Type="Int16" />
+    <Property Name="Alley" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="LatitueX" Type="Double" />
+    <Property Name="LongitudeY" Type="Double" />
+    <Property Name="BranchModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BuiltUpArea" Type="Int32" Nullable="false" />
+    <Property Name="BillId" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="TmpFld5" Type="Int32" />
+    <Property Name="Codeab" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="LstPayLimitDate" Type="DateTime" Precision="3" />
+    <Property Name="LastRcptDate" Type="DateTime" Precision="3" />
+    <Property Name="FixedTel2" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="Int32" />
+    <Property Name="Expr2" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="LetterExpireDate" Type="DateTime" Precision="3" />
+    <Property Name="LetterAndicator" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LetterDate" Type="DateTime" Precision="3" />
+    <Property Name="IndivisualCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TvnCounterView">
+    <Key>
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="CounterCode" />
+      <PropertyRef Name="RgnCode" />
+      <PropertyRef Name="CityCode" />
+      <PropertyRef Name="VillageCode" />
+      <PropertyRef Name="CounterTypeCode" />
+      <PropertyRef Name="FabrikNumber" />
+      <PropertyRef Name="DomainCode" />
+      <PropertyRef Name="DemandCoef" />
+      <PropertyRef Name="CntrCoef" />
+      <PropertyRef Name="PrdcrCode" />
+      <PropertyRef Name="QtyDgt" />
+      <PropertyRef Name="UpdInstDate" />
+      <PropertyRef Name="ModifiedDate" />
+      <PropertyRef Name="CreationDate" />
+    </Key>
+    <Property Name="BranchCode" Type="Int32" Nullable="false" />
+    <Property Name="CounterCode" Type="Int32" Nullable="false" />
+    <Property Name="BranchTypeCode" Type="Byte" />
+    <Property Name="CoCode" Type="Int16" />
+    <Property Name="RgnCode" Type="Int16" Nullable="false" />
+    <Property Name="CityCode" Type="Int16" Nullable="false" />
+    <Property Name="VillageCode" Type="Int16" Nullable="false" />
+    <Property Name="WorkDayCode" Type="Int16" />
+    <Property Name="RdrCode" Type="Int16" />
+    <Property Name="CounterTypeCode" Type="Int16" Nullable="false" />
+    <Property Name="InstallDate" Type="DateTime" Precision="3" />
+    <Property Name="FabrikNumber" Type="String" MaxLength="22" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TimerCode" Type="Byte" />
+    <Property Name="TimerFabNumber" Type="String" MaxLength="13" FixedLength="false" Unicode="true" />
+    <Property Name="DomainCode" Type="Int32" Nullable="false" />
+    <Property Name="DemandCoef" Type="Double" Nullable="false" />
+    <Property Name="CntrUninsDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdUninstDate" Type="DateTime" Precision="3" />
+    <Property Name="CntrStatCode" Type="Byte" />
+    <Property Name="ChngReson" Type="Int16" />
+    <Property Name="ChangeTypeCode" Type="Int32" />
+    <Property Name="CntrCoef" Type="Double" Nullable="false" />
+    <Property Name="PrdcrCode" Type="Int16" Nullable="false" />
+    <Property Name="CntrKind" Type="Byte" />
+    <Property Name="QtyDgt" Type="Int16" Nullable="false" />
+    <Property Name="CalCode" Type="Byte" />
+    <Property Name="UpdInstDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="InstallerCode" Type="Int32" />
+    <Property Name="LastReadDate" Type="DateTime" Precision="3" />
+    <Property Name="VirtualLastReadDate" Type="DateTime" Precision="3" />
+    <Property Name="PolompNum" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="CtInitialVolt" Type="Decimal" Precision="6" Scale="0" />
+    <Property Name="PtInitialVolt" Type="Decimal" Precision="6" Scale="0" />
+    <Property Name="CtSecondVolt" Type="Decimal" Precision="6" Scale="0" />
+    <Property Name="PtSecondVolt" Type="Decimal" Precision="6" Scale="0" />
+    <Property Name="Feeder" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Post" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="InstallRequestCode" Type="Int32" />
+    <Property Name="UnInstallRequestCode" Type="Int32" />
+    <Property Name="TmpFld1" Type="Int32" />
+    <Property Name="TmpFld2" Type="Int16" />
+    <Property Name="TmpFld3" Type="Int64" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SmartCounter" Type="Int16" />
+  </EntityType>
+  <EntityType Name="TVNF50FormView">
+    <Key>
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="RcptType" />
+      <PropertyRef Name="SRCode" />
+      <PropertyRef Name="RcptAmt" />
+      <PropertyRef Name="SaleCode" />
+      <PropertyRef Name="BankCode" />
+      <PropertyRef Name="BankBranchCode" />
+      <PropertyRef Name="RefrenceCode" />
+      <PropertyRef Name="RgnCode" />
+      <PropertyRef Name="CityCode" />
+      <PropertyRef Name="CoCode" />
+      <PropertyRef Name="ReceiptSource" />
+    </Key>
+    <Property Name="BranchCode" Type="Int32" Nullable="false" />
+    <Property Name="BnkDate" Type="DateTime" Precision="3" />
+    <Property Name="RcptDateTime" Type="DateTime" Precision="3" />
+    <Property Name="RcptType" Type="Int16" Nullable="false" />
+    <Property Name="ReceiptKind" Type="Byte" />
+    <Property Name="IEFileName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FileDate" Type="DateTime" Precision="3" />
+    <Property Name="SRCode" Type="Int64" Nullable="false" />
+    <Property Name="RcptAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SaleCode" Type="Decimal" Precision="3" Scale="0" Nullable="false" />
+    <Property Name="BillID" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentID" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="BankCode" Type="Int32" Nullable="false" />
+    <Property Name="BankBranchCode" Type="Int32" Nullable="false" />
+    <Property Name="RefrenceCode" Type="Int32" Nullable="false" />
+    <Property Name="RgnCode" Type="Int16" Nullable="false" />
+    <Property Name="CityCode" Type="Int16" Nullable="false" />
+    <Property Name="CoCode" Type="Int16" Nullable="false" />
+    <Property Name="ReceiptSource" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TVNNEWForm30View">
+    <Key>
+      <PropertyRef Name="SRCode" />
+      <PropertyRef Name="CoCode" />
+      <PropertyRef Name="RgnCode" />
+      <PropertyRef Name="CityCode" />
+      <PropertyRef Name="VillageCode" />
+      <PropertyRef Name="GeoState" />
+      <PropertyRef Name="SaleCode" />
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="SaleType" />
+      <PropertyRef Name="RcptType" />
+      <PropertyRef Name="BranchTypeCode" />
+      <PropertyRef Name="WorkDayCode" />
+      <PropertyRef Name="RdrCode" />
+      <PropertyRef Name="RdgSrl" />
+      <PropertyRef Name="BranchSrl" />
+      <PropertyRef Name="SaleYear" />
+      <PropertyRef Name="SaleFormCode" />
+      <PropertyRef Name="CrctnResonCode" />
+      <PropertyRef Name="TrfCode" />
+      <PropertyRef Name="SeeCode" />
+      <PropertyRef Name="ProblemCode" />
+      <PropertyRef Name="CrDbTot" />
+      <PropertyRef Name="CrDbOldYear" />
+      <PropertyRef Name="CrDbDelayDays" />
+      <PropertyRef Name="FmlCode" />
+      <PropertyRef Name="PwrCal" />
+      <PropertyRef Name="PwrCnt" />
+      <PropertyRef Name="Amp" />
+      <PropertyRef Name="DemageCoef" />
+      <PropertyRef Name="PwrIcn" />
+      <PropertyRef Name="PwrOverNum" />
+      <PropertyRef Name="DelayAmt" />
+      <PropertyRef Name="TaxAmt" />
+      <PropertyRef Name="SesnPeekAmt" />
+      <PropertyRef Name="SubscAmt" />
+      <PropertyRef Name="TvAmt" />
+      <PropertyRef Name="DiscAmt" />
+      <PropertyRef Name="PrdAmtOldYears" />
+      <PropertyRef Name="PrdAmt" />
+      <PropertyRef Name="BilAmt" />
+      <PropertyRef Name="BilRndAmt" />
+      <PropertyRef Name="VoltAmt" />
+      <PropertyRef Name="RcptAmt" />
+      <PropertyRef Name="RcptAmtoldYears" />
+      <PropertyRef Name="Item12PwrAmt" />
+      <PropertyRef Name="Item12PeekAmt" />
+      <PropertyRef Name="Item7PeekAmt" />
+      <PropertyRef Name="Item5Amt" />
+      <PropertyRef Name="A1CorrectionUsage" />
+      <PropertyRef Name="A1CorrectionAmount" />
+      <PropertyRef Name="A2CorrectionUsage" />
+      <PropertyRef Name="A2CorrectionAmount" />
+      <PropertyRef Name="A3CorrectionUsage" />
+      <PropertyRef Name="A3CorrectionAmount" />
+      <PropertyRef Name="A4CorrectionUsage" />
+      <PropertyRef Name="A4CorrectionAmount" />
+      <PropertyRef Name="A5CorrectionUsage" />
+      <PropertyRef Name="A5CorrectionAmount" />
+      <PropertyRef Name="WarmA1Amount" />
+      <PropertyRef Name="WarmA1Used" />
+      <PropertyRef Name="WarmA1Penalty" />
+      <PropertyRef Name="WarmA1ExtraUsage" />
+      <PropertyRef Name="WarmA2Amount" />
+      <PropertyRef Name="WarmA2Used" />
+      <PropertyRef Name="WarmA2Penalty" />
+      <PropertyRef Name="WarmA2ExtraUsage" />
+      <PropertyRef Name="WarmA3Amount" />
+      <PropertyRef Name="WarmA3Used" />
+      <PropertyRef Name="WarmA3Penalty" />
+      <PropertyRef Name="WarmA3ExtraUsage" />
+      <PropertyRef Name="WarmA4Amount" />
+      <PropertyRef Name="WarmA4Used" />
+      <PropertyRef Name="WarmA4Penalty" />
+      <PropertyRef Name="WarmA4ExtraUsage" />
+      <PropertyRef Name="WarmA5Amount" />
+      <PropertyRef Name="WarmA5Used" />
+      <PropertyRef Name="WarmA5Penalty" />
+      <PropertyRef Name="WarmA5ExtraUsage" />
+      <PropertyRef Name="WarmDays" />
+      <PropertyRef Name="WarmUsageStep" />
+      <PropertyRef Name="ColdA1Amount" />
+      <PropertyRef Name="ColdA1Used" />
+      <PropertyRef Name="ColdA1Penalty" />
+      <PropertyRef Name="ColdA1ExtraUsage" />
+      <PropertyRef Name="ColdA2Amount" />
+      <PropertyRef Name="ColdA2Used" />
+      <PropertyRef Name="ColdA2Penalty" />
+      <PropertyRef Name="ColdA2ExtraUsage" />
+      <PropertyRef Name="ColdA3Amount" />
+      <PropertyRef Name="ColdA3Used" />
+      <PropertyRef Name="ColdA3Penalty" />
+      <PropertyRef Name="ColdA3ExtraUsage" />
+      <PropertyRef Name="ColdA4Amount" />
+      <PropertyRef Name="ColdA4Used" />
+      <PropertyRef Name="ColdA4Penalty" />
+      <PropertyRef Name="ColdA4ExtraUsage" />
+      <PropertyRef Name="ColdA5Amount" />
+      <PropertyRef Name="ColdA5Used" />
+      <PropertyRef Name="ColdA5Penalty" />
+      <PropertyRef Name="ColdA5ExtraUsage" />
+      <PropertyRef Name="ColdDays" />
+      <PropertyRef Name="ColdUsageStep" />
+      <PropertyRef Name="SummerA1Amount" />
+      <PropertyRef Name="SummerA1Used" />
+      <PropertyRef Name="SummerA1Penalty" />
+      <PropertyRef Name="SummerA1ExtraUsage" />
+      <PropertyRef Name="SummerA2Amount" />
+      <PropertyRef Name="SummerA2Used" />
+      <PropertyRef Name="SummerA2Penalty" />
+      <PropertyRef Name="SummerA2ExtraUsage" />
+      <PropertyRef Name="SummerA3Amount" />
+      <PropertyRef Name="SummerA3Used" />
+      <PropertyRef Name="SummerA3Penalty" />
+      <PropertyRef Name="SummerA3ExtraUsage" />
+      <PropertyRef Name="SummerA4Amount" />
+      <PropertyRef Name="SummerA4Used" />
+      <PropertyRef Name="SummerA4Penalty" />
+      <PropertyRef Name="SummerA4ExtraUsage" />
+      <PropertyRef Name="SummerA5Amount" />
+      <PropertyRef Name="SummerA5Used" />
+      <PropertyRef Name="SummerA5Penalty" />
+      <PropertyRef Name="SummerA5ExtraUsage" />
+      <PropertyRef Name="SummerDays" />
+      <PropertyRef Name="SummerUsageStep" />
+      <PropertyRef Name="R2Amount" />
+      <PropertyRef Name="R2Usage" />
+      <PropertyRef Name="A1KWPrior" />
+      <PropertyRef Name="A1KWCurr" />
+      <PropertyRef Name="A2KWPrior" />
+      <PropertyRef Name="A2KWCurr" />
+      <PropertyRef Name="A3KWPrior" />
+      <PropertyRef Name="A3KWCurr" />
+      <PropertyRef Name="A4KWPrior" />
+      <PropertyRef Name="A4KWCurr" />
+      <PropertyRef Name="A5KWPrior" />
+      <PropertyRef Name="A5KWCurr" />
+      <PropertyRef Name="R1KWPrior" />
+      <PropertyRef Name="R1KWCurr" />
+      <PropertyRef Name="R2KWPrior" />
+      <PropertyRef Name="R2KWCurr" />
+      <PropertyRef Name="DemandMeterKW" />
+      <PropertyRef Name="CntrCoef" />
+      <PropertyRef Name="QtyDgt" />
+      <PropertyRef Name="CalCode" />
+      <PropertyRef Name="TimerCode" />
+      <PropertyRef Name="WarmPenaltyUse" />
+      <PropertyRef Name="ColdPenaltyUse" />
+    </Key>
+    <Property Name="SRCode" Type="Int64" Nullable="false" />
+    <Property Name="CoCode" Type="Int16" Nullable="false" />
+    <Property Name="RgnCode" Type="Int16" Nullable="false" />
+    <Property Name="CityCode" Type="Int16" Nullable="false" />
+    <Property Name="VillageCode" Type="Int16" Nullable="false" />
+    <Property Name="GeoState" Type="Byte" Nullable="false" />
+    <Property Name="ReadCode" Type="Int32" />
+    <Property Name="SaleCode" Type="Decimal" Precision="3" Scale="0" Nullable="false" />
+    <Property Name="ReceiptCode" Type="Int32" />
+    <Property Name="BranchCode" Type="Int32" Nullable="false" />
+    <Property Name="SaleType" Type="Int16" Nullable="false" />
+    <Property Name="RcptType" Type="Int16" Nullable="false" />
+    <Property Name="BranchTypeCode" Type="Byte" Nullable="false" />
+    <Property Name="DurationType" Type="Byte" />
+    <Property Name="SaleCoef" Type="Byte" />
+    <Property Name="WorkDayCode" Type="Int16" Nullable="false" />
+    <Property Name="RdrCode" Type="Int16" Nullable="false" />
+    <Property Name="RdgSrl" Type="Int32" Nullable="false" />
+    <Property Name="BranchSrl" Type="Int32" Nullable="false" />
+    <Property Name="SaleYear" Type="Int16" Nullable="false" />
+    <Property Name="SalePrd" Type="Int16" />
+    <Property Name="SaleDateTime" Type="DateTime" Precision="3" />
+    <Property Name="SaleFormCode" Type="Int16" Nullable="false" />
+    <Property Name="CrctnResonCode" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Precision="2" Scale="0" />
+    <Property Name="TrfType" Type="Byte" />
+    <Property Name="TrfCode" Type="Decimal" Precision="4" Scale="0" Nullable="false" />
+    <Property Name="OrgCode" Type="Decimal" Precision="8" Scale="0" />
+    <Property Name="GeoAreaCode" Type="Int16" />
+    <Property Name="SelCode" Type="Byte" />
+    <Property Name="CategoryCode" Type="Byte" />
+    <Property Name="SeeCode" Type="Int16" Nullable="false" />
+    <Property Name="ProblemCode" Type="Int16" Nullable="false" />
+    <Property Name="CrDbTot" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="CrDbOldYear" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="CrDbDelayDays" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="FmlCode" Type="Int32" Nullable="false" />
+    <Property Name="VoltCode" Type="Byte" />
+    <Property Name="PwrCal" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="PwrCnt" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="CntrFlag" Type="Byte" />
+    <Property Name="ChngCntrFlag" Type="Int16" />
+    <Property Name="BilTypeCode" Type="Byte" />
+    <Property Name="Phs" Type="Byte" />
+    <Property Name="Amp" Type="Int32" Nullable="false" />
+    <Property Name="PAYLIMITDATE" Type="DateTime" Precision="3" />
+    <Property Name="DemageCoef" Type="Double" Nullable="false" />
+    <Property Name="PwrIcn" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="PwrIcnExpDate" Type="DateTime" Precision="3" />
+    <Property Name="TmpExpireDate" Type="DateTime" Precision="3" />
+    <Property Name="PwrOverNum" Type="Int16" Nullable="false" />
+    <Property Name="PwrOverFlag" Type="Byte" />
+    <Property Name="DelayAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="TaxAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SesnPeekAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SubscAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="TvAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="DiscAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="PrdAmtOldYears" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="PrdAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="BilAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="BilRndAmt" Type="Int16" Nullable="false" />
+    <Property Name="VoltAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="CurrRdgDate" Type="DateTime" Precision="3" />
+    <Property Name="RcptAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="RcptAmtoldYears" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="RcptDateTime" Type="DateTime" Precision="3" />
+    <Property Name="ReceiptKind" Type="Byte" />
+    <Property Name="BnkDate" Type="DateTime" Precision="3" />
+    <Property Name="Item12PwrAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="Item12PeekAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="Item7PeekAmt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="Item5Amt" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="PwrAmt" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="UseAmountA" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="UseAmountR" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="PenaltyAmount" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="DifferentAmount" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="ShoraAmount" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="SaleRequestCode" Type="Int32" />
+    <Property Name="RejectRequestCode" Type="Int32" />
+    <Property Name="RejectDate" Type="DateTime" Precision="3" />
+    <Property Name="PresureCode" Type="Byte" />
+    <Property Name="ServiceCode" Type="Byte" />
+    <Property Name="TmpFld1" Type="Int32" />
+    <Property Name="TmpFld2" Type="Int32" />
+    <Property Name="TmpFld3" Type="Int32" />
+    <Property Name="TmpFld4" Type="Int16" />
+    <Property Name="TmpFld5" Type="Int16" />
+    <Property Name="TmpFld6" Type="Int16" />
+    <Property Name="TmpFld7" Type="Int64" />
+    <Property Name="TmpFld8" Type="Int64" />
+    <Property Name="TmpFld9" Type="Int64" />
+    <Property Name="TmpFld10" Type="Int64" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <Property Name="OperatorUserId" Type="Int32" />
+    <Property Name="OperatorDeptCode" Type="Int32" />
+    <Property Name="UseAct" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="UseReact" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="Prev_rdg_date" Type="DateTime" Precision="3" />
+    <Property Name="OpSaleYear" Type="Int16" />
+    <Property Name="OpSalePrd" Type="Int16" />
+    <Property Name="OpRejectYear" Type="Int16" />
+    <Property Name="OpRejectPrd" Type="Int16" />
+    <Property Name="OpRcptYear" Type="Int16" />
+    <Property Name="OpRcpPrd" Type="Int16" />
+    <Property Name="PwrRead" Type="Decimal" Precision="15" Scale="4" />
+    <Property Name="PwrUse" Type="Decimal" Precision="15" Scale="4" />
+    <Property Name="CosFi" Type="Double" />
+    <Property Name="ExtraAmt" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="UsePenalty" Type="Decimal" Precision="11" Scale="0" />
+    <Property Name="TmpDate1" Type="DateTime" Precision="3" />
+    <Property Name="TmpDate2" Type="DateTime" Precision="3" />
+    <Property Name="A1CorrectionUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A1CorrectionAmount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="A2CorrectionUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A2CorrectionAmount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="A3CorrectionUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A3CorrectionAmount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="A4CorrectionUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A4CorrectionAmount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="A5CorrectionUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A5CorrectionAmount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA1Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA1Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA1Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA1ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA2Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA2Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA2Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA2ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA3Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA3Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA3Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA3ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA4Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA4Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA4Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA4ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA5Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA5Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmA5Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="WarmA5ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="WarmDays" Type="Int32" Nullable="false" />
+    <Property Name="WarmUsageStep" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA1Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA1Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA1Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA1ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA2Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA2Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA2Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA2ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA3Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA3Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA3Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA3ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA4Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA4Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA4Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA4ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA5Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA5Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdA5Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="ColdA5ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdDays" Type="Int32" Nullable="false" />
+    <Property Name="ColdUsageStep" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA1Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA1Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA1Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA1ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA2Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA2Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA2Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA2ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA3Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA3Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA3Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA3ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA4Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA4Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA4Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA4ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA5Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA5Used" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerA5Penalty" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="SummerA5ExtraUsage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="SummerDays" Type="Int32" Nullable="false" />
+    <Property Name="SummerUsageStep" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="R2Amount" Type="Decimal" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="R2Usage" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A1KWPrior" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A1KWCurr" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A2KWPrior" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A2KWCurr" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A3KWPrior" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A3KWCurr" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A4KWPrior" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A4KWCurr" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A5KWPrior" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="A5KWCurr" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="R1KWPrior" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="R1KWCurr" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="R2KWPrior" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="R2KWCurr" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="DemandMeterKW" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="InstallDate" Type="DateTime" Precision="3" />
+    <Property Name="CntrCoef" Type="Double" Nullable="false" />
+    <Property Name="QtyDgt" Type="Int16" Nullable="false" />
+    <Property Name="CalCode" Type="Byte" Nullable="false" />
+    <Property Name="TimerCode" Type="Byte" Nullable="false" />
+    <Property Name="WarmPenaltyUse" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="ColdPenaltyUse" Type="Decimal" Precision="15" Scale="4" Nullable="false" />
+    <Property Name="FreeAmount" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="DiscGasAmt" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="PwrExpAmt" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="DisableAmt" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="PeekExtraAmt" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="LeastDiscountAmt" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="MiscUsage" Type="Decimal" Precision="15" Scale="4" />
+    <Property Name="MiscAmount" Type="Decimal" Precision="15" Scale="4" />
+    <Property Name="OutOfCntrUsage" Type="Decimal" Precision="15" Scale="4" />
+    <Property Name="OutOfCntrAmt" Type="Decimal" Precision="15" Scale="4" />
+    <Property Name="NTmfld1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld3" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld4" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld5" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld6" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld7" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld8" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NTmfld9" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DiscHighPower" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="InsuranceAmount" Type="Decimal" Precision="8" Scale="0" />
+    <Property Name="AvarezBarghAmt" Type="Decimal" Precision="15" Scale="0" />
+    <Property Name="BillID" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="ActTypeCode" Type="Decimal" Precision="8" Scale="0" />
+    <Property Name="PenaltyWarm" Type="Decimal" Precision="16" Scale="0" />
+    <Property Name="PenaltyCold" Type="Decimal" Precision="20" Scale="0" />
+    <Property Name="ColdA1Amt" Type="Decimal" Precision="14" Scale="0" />
+    <Property Name="ColdA2Amt" Type="Decimal" Precision="14" Scale="0" />
+    <Property Name="ColdA3Amt" Type="Decimal" Precision="14" Scale="0" />
+    <Property Name="ColdA4Amt" Type="Decimal" Precision="14" Scale="0" />
+    <Property Name="PrdAmtNet" Type="Decimal" Precision="20" Scale="0" />
+    <Property Name="WarmToColdRate" Type="Int32" />
+    <Property Name="ColdDaysNet" Type="Int32" />
+    <Property Name="TotalDays" Type="Int32" />
+    <Property Name="ColdA1Use" Type="Decimal" Precision="16" Scale="4" />
+    <Property Name="ColdA2Use" Type="Decimal" Precision="16" Scale="4" />
+    <Property Name="ColdA3Use" Type="Decimal" Precision="16" Scale="4" />
+    <Property Name="ColdA4Use" Type="Decimal" Precision="16" Scale="4" />
+    <Property Name="PaymentId" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="AndisheDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TVNBranchDataViews" EntityType="Self.TVNBranchDataView" />
+    <EntitySet Name="TvnCounterViews" EntityType="Self.TvnCounterView" />
+    <EntitySet Name="TVNF50FormView" EntityType="Self.TVNF50FormView" />
+    <EntitySet Name="TVNNEWForm30View" EntityType="Self.TVNNEWForm30View" />
+    <EntitySet Name="CalcLawTbls" EntityType="AndisheDBGolestanModel.CalcLawTbl" />
+    <EntitySet Name="CalcPenaltyRateTbls" EntityType="AndisheDBGolestanModel.CalcPenaltyRateTbl" />
+    <EntitySet Name="CalcRateCodeTbls" EntityType="AndisheDBGolestanModel.CalcRateCodeTbl" />
+    <EntitySet Name="CalcRateTbls" EntityType="AndisheDBGolestanModel.CalcRateTbl" />
+    <EntitySet Name="CalcSeasonDefineTbls" EntityType="AndisheDBGolestanModel.CalcSeasonDefineTbl" />
+    <EntitySet Name="CalcTariffTbls" EntityType="AndisheDBGolestanModel.CalcTariffTbl" />
+    <EntitySet Name="CalcTarrifForGeoTempTbls" EntityType="AndisheDBGolestanModel.CalcTarrifForGeoTempTbl" />
+    <EntitySet Name="CalcTarrifHeaderTbls" EntityType="AndisheDBGolestanModel.CalcTarrifHeaderTbl" />
+    <EntitySet Name="CalcTarrifItemsTbls" EntityType="AndisheDBGolestanModel.CalcTarrifItemsTbl" />
+    <EntitySet Name="CalcTempratureRegionTbls" EntityType="AndisheDBGolestanModel.CalcTempratureRegionTbl" />
+    <EntitySet Name="CalcRegionTypeViews" EntityType="AndisheDBGolestanModel.CalcRegionTypeView" />
+    <EntitySet Name="CalcRgnCityByTrfTempViews" EntityType="AndisheDBGolestanModel.CalcRgnCityByTrfTempView" />
+    <EntitySet Name="CalcTempratureRegionViews" EntityType="AndisheDBGolestanModel.CalcTempratureRegionView" />
+    <AssociationSet Name="FK_CalcTarrifHeaderTbl_CalculationLawTbl" Association="AndisheDBGolestanModel.FK_CalcTarrifHeaderTbl_CalculationLawTbl">
+      <End Role="CalcLawTbl" EntitySet="CalcLawTbls" />
+      <End Role="CalcTarrifHeaderTbl" EntitySet="CalcTarrifHeaderTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CalcPenaltyRateTbl_CalcRateTbl1" Association="AndisheDBGolestanModel.FK_CalcPenaltyRateTbl_CalcRateTbl1">
+      <End Role="CalcRateTbl" EntitySet="CalcRateTbls" />
+      <End Role="CalcPenaltyRateTbl" EntitySet="CalcPenaltyRateTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CalcRateCodeTbl_CalcRateTbl" Association="AndisheDBGolestanModel.FK_CalcRateCodeTbl_CalcRateTbl">
+      <End Role="CalcRateTbl" EntitySet="CalcRateTbls" />
+      <End Role="CalcRateCodeTbl" EntitySet="CalcRateCodeTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CalcRateTbl_CalcTarrifHeaderTbl" Association="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTarrifHeaderTbl">
+      <End Role="CalcTarrifHeaderTbl" EntitySet="CalcTarrifHeaderTbls" />
+      <End Role="CalcRateTbl" EntitySet="CalcRateTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CalcRateTbl_CalcTempratureRegionTbl" Association="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTempratureRegionTbl">
+      <End Role="CalcTempratureRegionTbl" EntitySet="CalcTempratureRegionTbls" />
+      <End Role="CalcRateTbl" EntitySet="CalcRateTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CalcSeasonDefineTbl_CalcTarrifHeaderTbl" Association="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTarrifHeaderTbl">
+      <End Role="CalcTarrifHeaderTbl" EntitySet="CalcTarrifHeaderTbls" />
+      <End Role="CalcSeasonDefineTbl" EntitySet="CalcSeasonDefineTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CalcSeasonDefineTbl_CalcTempratureRegionTbl" Association="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTempratureRegionTbl">
+      <End Role="CalcTempratureRegionTbl" EntitySet="CalcTempratureRegionTbls" />
+      <End Role="CalcSeasonDefineTbl" EntitySet="CalcSeasonDefineTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CalcTariffTbl_CalcTarrifHeaderTbl" Association="AndisheDBGolestanModel.FK_CalcTariffTbl_CalcTarrifHeaderTbl">
+      <End Role="CalcTarrifHeaderTbl" EntitySet="CalcTarrifHeaderTbls" />
+      <End Role="CalcTariffTbl" EntitySet="CalcTariffTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TarrifForGeoTempTbl_CalcTarrifHeaderTbl" Association="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTarrifHeaderTbl">
+      <End Role="CalcTarrifHeaderTbl" EntitySet="CalcTarrifHeaderTbls" />
+      <End Role="CalcTarrifForGeoTempTbl" EntitySet="CalcTarrifForGeoTempTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TarrifForGeoTempTbl_CalcTempratureRegionTbl" Association="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTempratureRegionTbl">
+      <End Role="CalcTempratureRegionTbl" EntitySet="CalcTempratureRegionTbls" />
+      <End Role="CalcTarrifForGeoTempTbl" EntitySet="CalcTarrifForGeoTempTbls" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CalcLawTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LawName" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="Byte" Nullable="false" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcTarrifHeaderTbls" Relationship="AndisheDBGolestanModel.FK_CalcTarrifHeaderTbl_CalculationLawTbl" FromRole="CalcLawTbl" ToRole="CalcTarrifHeaderTbl" />
+  </EntityType>
+  <EntityType Name="CalcPenaltyRateTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfHCode" />
+      <PropertyRef Name="TrfType" />
+      <PropertyRef Name="TRID" />
+      <PropertyRef Name="PresureCode" />
+      <PropertyRef Name="LawItem" />
+      <PropertyRef Name="SubLawItem" />
+      <PropertyRef Name="SelCode" />
+      <PropertyRef Name="USE_STEP" />
+      <PropertyRef Name="NomratorType" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="PresureCode" Type="Byte" Nullable="false" />
+    <Property Name="LawItem" Type="Int16" Nullable="false" />
+    <Property Name="SubLawItem" Type="Int16" Nullable="false" />
+    <Property Name="SelCode" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+    <Property Name="USE_STEP" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="NomratorType" Type="Byte" Nullable="false" />
+    <Property Name="NegPwrRt" Type="Decimal" Precision="15" Scale="5" />
+    <Property Name="PWR_0_RT_COEF" Type="Decimal" Precision="15" Scale="5" />
+    <Property Name="PWR_1_RT_COEF" Type="Decimal" Precision="15" Scale="7" />
+    <Property Name="Neg_2_PWR_RT" Type="Decimal" Precision="15" Scale="3" />
+    <Property Name="SRPS_AMT" Type="Decimal" Precision="15" Scale="5" />
+    <Property Name="Tempfld1" Type="Int32" />
+    <Property Name="Tempfld2" Type="Int32" />
+    <Property Name="Tempfld3" Type="Int32" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcRateTbl" Relationship="AndisheDBGolestanModel.FK_CalcPenaltyRateTbl_CalcRateTbl1" FromRole="CalcPenaltyRateTbl" ToRole="CalcRateTbl" />
+  </EntityType>
+  <EntityType Name="CalcRateCodeTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfHCode" />
+      <PropertyRef Name="TrfType" />
+      <PropertyRef Name="TRID" />
+      <PropertyRef Name="PresureCode" />
+      <PropertyRef Name="LawItem" />
+      <PropertyRef Name="SubLawItem" />
+      <PropertyRef Name="SelCode" />
+      <PropertyRef Name="USE_STEP" />
+      <PropertyRef Name="NomratorType" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="PresureCode" Type="Byte" Nullable="false" />
+    <Property Name="LawItem" Type="Int16" Nullable="false" />
+    <Property Name="SubLawItem" Type="Int16" Nullable="false" />
+    <Property Name="SelCode" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+    <Property Name="USE_STEP" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="NomratorType" Type="Byte" Nullable="false" />
+    <Property Name="discountcode" Type="Byte" Nullable="false" />
+    <Property Name="NegPwrRt" Type="Decimal" Nullable="false" Precision="15" Scale="5" />
+    <Property Name="PWR_0_RT_COEF" Type="Decimal" Nullable="false" Precision="15" Scale="5" />
+    <Property Name="PWR_1_RT_COEF" Type="Decimal" Nullable="false" Precision="15" Scale="7" />
+    <Property Name="PWR_2_RT_COEF" Type="Decimal" Nullable="false" Precision="15" Scale="7" />
+    <Property Name="SRPS_AMT" Type="Decimal" Nullable="false" Precision="15" Scale="5" />
+    <Property Name="Tempfld1" Type="Int32" />
+    <Property Name="Tempfld2" Type="Int32" />
+    <Property Name="Tempfld3" Type="Int32" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcRateTbl" Relationship="AndisheDBGolestanModel.FK_CalcRateCodeTbl_CalcRateTbl" FromRole="CalcRateCodeTbl" ToRole="CalcRateTbl" />
+  </EntityType>
+  <EntityType Name="CalcRateTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfHCode" />
+      <PropertyRef Name="TrfType" />
+      <PropertyRef Name="TRID" />
+      <PropertyRef Name="PresureCode" />
+      <PropertyRef Name="LawItem" />
+      <PropertyRef Name="SubLawItem" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="PresureCode" Type="Byte" Nullable="false" />
+    <Property Name="LawItem" Type="Int16" Nullable="false" />
+    <Property Name="SubLawItem" Type="Int16" Nullable="false" />
+    <Property Name="PHS_1_SBSC_FIX_AMT" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="PHS_3_SBSC_FIX_AMT" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="PHS_1_MIN_AMT" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="PHS_3_MIN_AMT" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="TAX_PT" Type="Decimal" Nullable="false" Precision="5" Scale="3" />
+    <Property Name="TAX_SBSC_CMPT_COEF" Type="Decimal" Nullable="false" Precision="5" Scale="3" />
+    <Property Name="TV_MM_RT" Type="Decimal" Nullable="false" Precision="11" Scale="6" />
+    <Property Name="TV_INCD_USE_MIN" Type="Decimal" Nullable="false" Precision="10" Scale="6" />
+    <Property Name="ACT1_RT_MAX" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="ACT2_RT_MAX" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="ACT3_RT_MAX" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="RACT_RT_MAX" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="PWR_RT_MAX_TRF1" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="PWR_CAL_COEF" Type="Decimal" Nullable="false" Precision="5" Scale="3" />
+    <Property Name="PEEK_COEF" Type="Decimal" Nullable="false" Precision="5" Scale="3" />
+    <Property Name="FRIDAY_COEF" Type="Decimal" Nullable="false" Precision="5" Scale="3" />
+    <Property Name="DISABLE_DISCOUNT_AMT" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="DISABLE_DISCOUNT_KW" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="NONINDUSTRIAL_PENALTY_COEF" Type="Decimal" Nullable="false" Precision="5" Scale="3" />
+    <Property Name="PWR_ICN_EXPIRE_PENALTY_COEF" Type="Decimal" Nullable="false" Precision="5" Scale="3" />
+    <Property Name="MaxAllowedUse" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="maxrateperkw" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="VILLAGE_RATE" Type="Decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="VillageInsurance" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="CityInsurance" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="AvarezBarghRate" Type="Decimal" Precision="5" Scale="0" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcPenaltyRateTbls" Relationship="AndisheDBGolestanModel.FK_CalcPenaltyRateTbl_CalcRateTbl1" FromRole="CalcRateTbl" ToRole="CalcPenaltyRateTbl" />
+    <NavigationProperty Name="CalcRateCodeTbls" Relationship="AndisheDBGolestanModel.FK_CalcRateCodeTbl_CalcRateTbl" FromRole="CalcRateTbl" ToRole="CalcRateCodeTbl" />
+    <NavigationProperty Name="CalcTarrifHeaderTbl" Relationship="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTarrifHeaderTbl" FromRole="CalcRateTbl" ToRole="CalcTarrifHeaderTbl" />
+    <NavigationProperty Name="CalcTempratureRegionTbl" Relationship="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTempratureRegionTbl" FromRole="CalcRateTbl" ToRole="CalcTempratureRegionTbl" />
+  </EntityType>
+  <EntityType Name="CalcSeasonDefineTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="SeasonCode" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="SeasonCode" Type="Int16" Nullable="false" />
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="SeasonStartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SeasonEndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SeasonPercent" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="SeasonType" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcTarrifHeaderTbl" Relationship="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTarrifHeaderTbl" FromRole="CalcSeasonDefineTbl" ToRole="CalcTarrifHeaderTbl" />
+    <NavigationProperty Name="CalcTempratureRegionTbl" Relationship="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTempratureRegionTbl" FromRole="CalcSeasonDefineTbl" ToRole="CalcTempratureRegionTbl" />
+  </EntityType>
+  <EntityType Name="CalcTariffTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfCode" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="LawItem" Type="Int16" />
+    <Property Name="SubLawItem" Type="Int16" />
+    <Property Name="TrfName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IgnoreSeason" Type="Boolean" Nullable="false" />
+    <Property Name="IsDisable" Type="Boolean" Nullable="false" />
+    <Property Name="IsPenaltyOff" Type="Boolean" Nullable="false" />
+    <Property Name="FreeTrfCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="DiscountPercent" Type="Decimal" Nullable="false" Precision="3" Scale="0" />
+    <Property Name="OffMinDemand" Type="Boolean" Nullable="false" />
+    <Property Name="Tempfld1" Type="Int32" />
+    <Property Name="Tempfld2" Type="Int32" />
+    <Property Name="Tempfld3" Type="Int32" />
+    <Property Name="Tempfld4" Type="Int32" />
+    <Property Name="Tempfld5" Type="Int32" />
+    <Property Name="Tempfld6" Type="Int32" />
+    <Property Name="Tempfld7" Type="Int32" />
+    <Property Name="Tempfld8" Type="Int32" />
+    <Property Name="Tempfld9" Type="Int32" />
+    <Property Name="Tempfld10" Type="Int32" />
+    <Property Name="Tempfld11" Type="Int32" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcTarrifHeaderTbl" Relationship="AndisheDBGolestanModel.FK_CalcTariffTbl_CalcTarrifHeaderTbl" FromRole="CalcTariffTbl" ToRole="CalcTarrifHeaderTbl" />
+  </EntityType>
+  <EntityType Name="CalcTarrifForGeoTempTbl">
+    <Key>
+      <PropertyRef Name="CoCode" />
+      <PropertyRef Name="RgnCode" />
+      <PropertyRef Name="CityCode" />
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfHCode" />
+      <PropertyRef Name="TrfType" />
+      <PropertyRef Name="TRID" />
+    </Key>
+    <Property Name="CoCode" Type="Int16" Nullable="false" />
+    <Property Name="RgnCode" Type="Int16" Nullable="false" />
+    <Property Name="CityCode" Type="Int16" Nullable="false" />
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcTarrifHeaderTbl" Relationship="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTarrifHeaderTbl" FromRole="CalcTarrifForGeoTempTbl" ToRole="CalcTarrifHeaderTbl" />
+    <NavigationProperty Name="CalcTempratureRegionTbl" Relationship="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTempratureRegionTbl" FromRole="CalcTarrifForGeoTempTbl" ToRole="CalcTempratureRegionTbl" />
+  </EntityType>
+  <EntityType Name="CalcTarrifHeaderTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfHCode" />
+      <PropertyRef Name="TrfType" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="TrfName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CalcLawTbl" Relationship="AndisheDBGolestanModel.FK_CalcTarrifHeaderTbl_CalculationLawTbl" FromRole="CalcTarrifHeaderTbl" ToRole="CalcLawTbl" />
+    <NavigationProperty Name="CalcRateTbls" Relationship="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTarrifHeaderTbl" FromRole="CalcTarrifHeaderTbl" ToRole="CalcRateTbl" />
+    <NavigationProperty Name="CalcSeasonDefineTbls" Relationship="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTarrifHeaderTbl" FromRole="CalcTarrifHeaderTbl" ToRole="CalcSeasonDefineTbl" />
+    <NavigationProperty Name="CalcTariffTbls" Relationship="AndisheDBGolestanModel.FK_CalcTariffTbl_CalcTarrifHeaderTbl" FromRole="CalcTarrifHeaderTbl" ToRole="CalcTariffTbl" />
+    <NavigationProperty Name="CalcTarrifForGeoTempTbls" Relationship="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTarrifHeaderTbl" FromRole="CalcTarrifHeaderTbl" ToRole="CalcTarrifForGeoTempTbl" />
+  </EntityType>
+  <EntityType Name="CalcTarrifItemsTbl">
+    <Key>
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfCode" />
+      <PropertyRef Name="TrfType" />
+      <PropertyRef Name="PresureCode" />
+      <PropertyRef Name="SelCode" />
+    </Key>
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="LawItem" Type="Int16" />
+    <Property Name="SubLawItem" Type="Int16" />
+    <Property Name="PresureCode" Type="Byte" Nullable="false" />
+    <Property Name="SelCode" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+    <Property Name="TrfName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LawItemCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Tempfld1" Type="Int32" />
+    <Property Name="Tempfld2" Type="Int32" />
+    <Property Name="IgnoreSeason" Type="Boolean" Nullable="false" />
+    <Property Name="IsDisable" Type="Boolean" Nullable="false" />
+    <Property Name="IsPenaltyOff" Type="Boolean" Nullable="false" />
+    <Property Name="FreeTrfCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="CalcTempratureRegionTbl">
+    <Key>
+      <PropertyRef Name="TRID" />
+      <PropertyRef Name="CalLawId" />
+    </Key>
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TrName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TrCoef" Type="Decimal" Precision="6" Scale="4" />
+    <Property Name="trtype" Type="Byte" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <Property Name="AllowedUsage" Type="Decimal" Nullable="false" Precision="8" Scale="0" />
+    <Property Name="TmpFld1" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="TmpFld2" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="TmpFld3" Type="Decimal" Precision="13" Scale="0" />
+    <NavigationProperty Name="CalcRateTbls" Relationship="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTempratureRegionTbl" FromRole="CalcTempratureRegionTbl" ToRole="CalcRateTbl" />
+    <NavigationProperty Name="CalcSeasonDefineTbls" Relationship="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTempratureRegionTbl" FromRole="CalcTempratureRegionTbl" ToRole="CalcSeasonDefineTbl" />
+    <NavigationProperty Name="CalcTarrifForGeoTempTbls" Relationship="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTempratureRegionTbl" FromRole="CalcTempratureRegionTbl" ToRole="CalcTarrifForGeoTempTbl" />
+  </EntityType>
+  <EntityType Name="CalcRegionTypeView">
+    <Key>
+      <PropertyRef Name="CoCode" />
+      <PropertyRef Name="RgnCode" />
+      <PropertyRef Name="CityCode" />
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfHCode" />
+      <PropertyRef Name="TrfType" />
+      <PropertyRef Name="TRID" />
+      <PropertyRef Name="StartDate" />
+      <PropertyRef Name="EndDate" />
+    </Key>
+    <Property Name="CoCode" Type="Int16" Nullable="false" />
+    <Property Name="RgnCode" Type="Int16" Nullable="false" />
+    <Property Name="CityCode" Type="Int16" Nullable="false" />
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TrName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TrCoef" Type="Decimal" Precision="6" Scale="4" />
+    <Property Name="trtype" Type="Byte" />
+    <Property Name="TmpFld1" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="TmpFld2" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="TmpFld3" Type="Decimal" Precision="13" Scale="0" />
+  </EntityType>
+  <EntityType Name="CalcRgnCityByTrfTempView">
+    <Key>
+      <PropertyRef Name="CoCode" />
+      <PropertyRef Name="RgnCode" />
+      <PropertyRef Name="CityCode" />
+      <PropertyRef Name="CalLawId" />
+      <PropertyRef Name="TrfHCode" />
+      <PropertyRef Name="TrfType" />
+      <PropertyRef Name="TRID" />
+      <PropertyRef Name="StartDate" />
+      <PropertyRef Name="EndDate" />
+      <PropertyRef Name="AllowedUsage" />
+    </Key>
+    <Property Name="CoCode" Type="Int16" Nullable="false" />
+    <Property Name="RgnCode" Type="Int16" Nullable="false" />
+    <Property Name="CityCode" Type="Int16" Nullable="false" />
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="TrfHCode" Type="Decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="TrfType" Type="Byte" Nullable="false" />
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TrName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TrCoef" Type="Decimal" Precision="6" Scale="4" />
+    <Property Name="trtype" Type="Byte" />
+    <Property Name="AllowedUsage" Type="Decimal" Nullable="false" Precision="8" Scale="0" />
+    <Property Name="TmpFld1" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="TmpFld2" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="TmpFld3" Type="Decimal" Precision="13" Scale="0" />
+  </EntityType>
+  <EntityType Name="CalcTempratureRegionView">
+    <Key>
+      <PropertyRef Name="TRID" />
+      <PropertyRef Name="CalLawId" />
+    </Key>
+    <Property Name="TRID" Type="Int32" Nullable="false" />
+    <Property Name="CalLawId" Type="Int16" Nullable="false" />
+    <Property Name="StartDate" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="EndDate" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="TrName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TrCoef" Type="Decimal" Precision="6" Scale="4" />
+    <Property Name="trtype" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="LawName" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_CalcTarrifHeaderTbl_CalculationLawTbl">
+    <End Type="AndisheDBGolestanModel.CalcLawTbl" Role="CalcLawTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcTarrifHeaderTbl" Role="CalcTarrifHeaderTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcLawTbl">
+        <PropertyRef Name="CalLawId" />
+      </Principal>
+      <Dependent Role="CalcTarrifHeaderTbl">
+        <PropertyRef Name="CalLawId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CalcPenaltyRateTbl_CalcRateTbl1">
+    <End Type="AndisheDBGolestanModel.CalcRateTbl" Role="CalcRateTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcPenaltyRateTbl" Role="CalcPenaltyRateTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcRateTbl">
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="TrfType" />
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="PresureCode" />
+        <PropertyRef Name="LawItem" />
+        <PropertyRef Name="SubLawItem" />
+      </Principal>
+      <Dependent Role="CalcPenaltyRateTbl">
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="TrfType" />
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="PresureCode" />
+        <PropertyRef Name="LawItem" />
+        <PropertyRef Name="SubLawItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CalcRateCodeTbl_CalcRateTbl">
+    <End Type="AndisheDBGolestanModel.CalcRateTbl" Role="CalcRateTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcRateCodeTbl" Role="CalcRateCodeTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcRateTbl">
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="TrfType" />
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="PresureCode" />
+        <PropertyRef Name="LawItem" />
+        <PropertyRef Name="SubLawItem" />
+      </Principal>
+      <Dependent Role="CalcRateCodeTbl">
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="TrfType" />
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="PresureCode" />
+        <PropertyRef Name="LawItem" />
+        <PropertyRef Name="SubLawItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CalcRateTbl_CalcTarrifHeaderTbl">
+    <End Type="AndisheDBGolestanModel.CalcTarrifHeaderTbl" Role="CalcTarrifHeaderTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcRateTbl" Role="CalcRateTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcTarrifHeaderTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Principal>
+      <Dependent Role="CalcRateTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CalcRateTbl_CalcTempratureRegionTbl">
+    <End Type="AndisheDBGolestanModel.CalcTempratureRegionTbl" Role="CalcTempratureRegionTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcRateTbl" Role="CalcRateTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcTempratureRegionTbl">
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="CalLawId" />
+      </Principal>
+      <Dependent Role="CalcRateTbl">
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="CalLawId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CalcSeasonDefineTbl_CalcTarrifHeaderTbl">
+    <End Type="AndisheDBGolestanModel.CalcTarrifHeaderTbl" Role="CalcTarrifHeaderTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcSeasonDefineTbl" Role="CalcSeasonDefineTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcTarrifHeaderTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Principal>
+      <Dependent Role="CalcSeasonDefineTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CalcSeasonDefineTbl_CalcTempratureRegionTbl">
+    <End Type="AndisheDBGolestanModel.CalcTempratureRegionTbl" Role="CalcTempratureRegionTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcSeasonDefineTbl" Role="CalcSeasonDefineTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcTempratureRegionTbl">
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="CalLawId" />
+      </Principal>
+      <Dependent Role="CalcSeasonDefineTbl">
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="CalLawId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CalcTariffTbl_CalcTarrifHeaderTbl">
+    <End Type="AndisheDBGolestanModel.CalcTarrifHeaderTbl" Role="CalcTarrifHeaderTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcTariffTbl" Role="CalcTariffTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcTarrifHeaderTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Principal>
+      <Dependent Role="CalcTariffTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TarrifForGeoTempTbl_CalcTarrifHeaderTbl">
+    <End Type="AndisheDBGolestanModel.CalcTarrifHeaderTbl" Role="CalcTarrifHeaderTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcTarrifForGeoTempTbl" Role="CalcTarrifForGeoTempTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcTarrifHeaderTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Principal>
+      <Dependent Role="CalcTarrifForGeoTempTbl">
+        <PropertyRef Name="TrfHCode" />
+        <PropertyRef Name="CalLawId" />
+        <PropertyRef Name="TrfType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TarrifForGeoTempTbl_CalcTempratureRegionTbl">
+    <End Type="AndisheDBGolestanModel.CalcTempratureRegionTbl" Role="CalcTempratureRegionTbl" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AndisheDBGolestanModel.CalcTarrifForGeoTempTbl" Role="CalcTarrifForGeoTempTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CalcTempratureRegionTbl">
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="CalLawId" />
+      </Principal>
+      <Dependent Role="CalcTarrifForGeoTempTbl">
+        <PropertyRef Name="TRID" />
+        <PropertyRef Name="CalLawId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

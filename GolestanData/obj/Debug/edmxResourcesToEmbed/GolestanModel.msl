@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AndisheDBGolestanModelStoreContainer" CdmEntityContainer="AndisheDBEntities">
+    <EntitySetMapping Name="TVNBranchDataViews">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.TVNBranchDataView">
+        <MappingFragment StoreEntitySet="TVNBranchDataView">
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="OwnerCode" ColumnName="OwnerCode" />
+          <ScalarProperty Name="OwnerFamily" ColumnName="OwnerFamily" />
+          <ScalarProperty Name="OwnerName" ColumnName="OwnerName" />
+          <ScalarProperty Name="BranchTypeCode" ColumnName="BranchTypeCode" />
+          <ScalarProperty Name="Phs" ColumnName="Phs" />
+          <ScalarProperty Name="Amp" ColumnName="Amp" />
+          <ScalarProperty Name="VoltCode" ColumnName="VoltCode" />
+          <ScalarProperty Name="trfHeader" ColumnName="trfHeader" />
+          <ScalarProperty Name="HomeAdderss" ColumnName="HomeAdderss" />
+          <ScalarProperty Name="HomePoNum" ColumnName="HomePoNum" />
+          <ScalarProperty Name="FmlCode" ColumnName="FmlCode" />
+          <ScalarProperty Name="SelCode" ColumnName="SelCode" />
+          <ScalarProperty Name="BranchSrl" ColumnName="BranchSrl" />
+          <ScalarProperty Name="RgnCode" ColumnName="RgnCode" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
+          <ScalarProperty Name="PwrCnt" ColumnName="PwrCnt" />
+          <ScalarProperty Name="OrgCode" ColumnName="OrgCode" />
+          <ScalarProperty Name="RdgSrl" ColumnName="RdgSrl" />
+          <ScalarProperty Name="PwrIcn" ColumnName="PwrIcn" />
+          <ScalarProperty Name="PwrIcnExpDate" ColumnName="PwrIcnExpDate" />
+          <ScalarProperty Name="ActTypeCode" ColumnName="ActTypeCode" />
+          <ScalarProperty Name="BranchStatCode" ColumnName="BranchStatCode" />
+          <ScalarProperty Name="CrDBBranchSale" ColumnName="CrDBBranchSale" />
+          <ScalarProperty Name="CrDbTot" ColumnName="CrDbTot" />
+          <ScalarProperty Name="ValidationStatusName" ColumnName="ValidationStatusName" />
+          <ScalarProperty Name="OfficeAddressCode" ColumnName="OfficeAddressCode" />
+          <ScalarProperty Name="HomeAddressCode" ColumnName="HomeAddressCode" />
+          <ScalarProperty Name="BranchAddressCode" ColumnName="BranchAddressCode" />
+          <ScalarProperty Name="DecodeBranchKindCode" ColumnName="DecodeBranchKindCode" />
+          <ScalarProperty Name="BranchKindCode" ColumnName="BranchKindCode" />
+          <ScalarProperty Name="GeoAreaCodeName" ColumnName="GeoAreaCodeName" />
+          <ScalarProperty Name="PostType" ColumnName="PostType" />
+          <ScalarProperty Name="PresureCode" ColumnName="PresureCode" />
+          <ScalarProperty Name="ServiceCode" ColumnName="ServiceCode" />
+          <ScalarProperty Name="BranchCntractDate" ColumnName="BranchCntractDate" />
+          <ScalarProperty Name="BranchCreatDate" ColumnName="BranchCreatDate" />
+          <ScalarProperty Name="TmpExpireDate" ColumnName="TmpExpireDate" />
+          <ScalarProperty Name="OwnerNatCode" ColumnName="OwnerNatCode" />
+          <ScalarProperty Name="ShomareShenasname" ColumnName="ShomareShenasname" />
+          <ScalarProperty Name="IssuedFrom" ColumnName="IssuedFrom" />
+          <ScalarProperty Name="FatherName" ColumnName="FatherName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TrfCode" ColumnName="TrfCode" />
+          <ScalarProperty Name="WorkDayCode" ColumnName="WorkDayCode" />
+          <ScalarProperty Name="RdrCode" ColumnName="RdrCode" />
+          <ScalarProperty Name="InstlCntrCode" ColumnName="InstlCntrCode" />
+          <ScalarProperty Name="InstallDate3Rate" ColumnName="InstallDate3Rate" />
+          <ScalarProperty Name="ChngCntrCode" ColumnName="ChngCntrCode" />
+          <ScalarProperty Name="CrDbOtherCost" ColumnName="CrDbOtherCost" />
+          <ScalarProperty Name="SpecialCode" ColumnName="SpecialCode" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="FixedTel" ColumnName="FixedTel" />
+          <ScalarProperty Name="CoCode" ColumnName="CoCode" />
+          <ScalarProperty Name="FabrikNumber" ColumnName="FabrikNumber" />
+          <ScalarProperty Name="PrdcrCode" ColumnName="PrdcrCode" />
+          <ScalarProperty Name="CntrKind" ColumnName="CntrKind" />
+          <ScalarProperty Name="EshterakCode" ColumnName="EshterakCode" />
+          <ScalarProperty Name="IdentityCode" ColumnName="IdentityCode" />
+          <ScalarProperty Name="GeoState" ColumnName="GeoState" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="SfscTrfCode" ColumnName="SfscTrfCode" />
+          <ScalarProperty Name="CategoryCode" ColumnName="CategoryCode" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="CounterCode" ColumnName="CounterCode" />
+          <ScalarProperty Name="QtyDgt" ColumnName="QtyDgt" />
+          <ScalarProperty Name="UpdInstDate" ColumnName="UpdInstDate" />
+          <ScalarProperty Name="LastReadDate" ColumnName="LastReadDate" />
+          <ScalarProperty Name="CntrUninsDate" ColumnName="CntrUninsDate" />
+          <ScalarProperty Name="CntrCoef" ColumnName="CntrCoef" />
+          <ScalarProperty Name="CounterTypeCode" ColumnName="CounterTypeCode" />
+          <ScalarProperty Name="CntrStatCode" ColumnName="CntrStatCode" />
+          <ScalarProperty Name="DurationType" ColumnName="DurationType" />
+          <ScalarProperty Name="InstallDate" ColumnName="InstallDate" />
+          <ScalarProperty Name="TimerCode" ColumnName="TimerCode" />
+          <ScalarProperty Name="UpdUninstDate" ColumnName="UpdUninstDate" />
+          <ScalarProperty Name="SmartCounter" ColumnName="SmartCounter" />
+          <ScalarProperty Name="CalCode" ColumnName="CalCode" />
+          <ScalarProperty Name="PolompNum" ColumnName="PolompNum" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="ownerTypeCode" ColumnName="ownerTypeCode" />
+          <ScalarProperty Name="GeoAreaCode" ColumnName="GeoAreaCode" />
+          <ScalarProperty Name="TmpFld6" ColumnName="TmpFld6" />
+          <ScalarProperty Name="NewBranchCode" ColumnName="NewBranchCode" />
+          <ScalarProperty Name="RealPower" ColumnName="RealPower" />
+          <ScalarProperty Name="DomainCode" ColumnName="DomainCode" />
+          <ScalarProperty Name="DimandMeter" ColumnName="DimandMeter" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="Alley" ColumnName="Alley" />
+          <ScalarProperty Name="LatitueX" ColumnName="LatitueX" />
+          <ScalarProperty Name="LongitudeY" ColumnName="LongitudeY" />
+          <ScalarProperty Name="BranchModifiedDate" ColumnName="BranchModifiedDate" />
+          <ScalarProperty Name="BuiltUpArea" ColumnName="BuiltUpArea" />
+          <ScalarProperty Name="BillId" ColumnName="BillId" />
+          <ScalarProperty Name="TmpFld5" ColumnName="TmpFld5" />
+          <ScalarProperty Name="Codeab" ColumnName="Codeab" />
+          <ScalarProperty Name="LstPayLimitDate" ColumnName="LstPayLimitDate" />
+          <ScalarProperty Name="LastRcptDate" ColumnName="LastRcptDate" />
+          <ScalarProperty Name="FixedTel2" ColumnName="FixedTel2" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Expr2" ColumnName="Expr2" />
+          <ScalarProperty Name="LetterExpireDate" ColumnName="LetterExpireDate" />
+          <ScalarProperty Name="LetterAndicator" ColumnName="LetterAndicator" />
+          <ScalarProperty Name="LetterDate" ColumnName="LetterDate" />
+          <ScalarProperty Name="IndivisualCode" ColumnName="IndivisualCode" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TvnCounterViews">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.TvnCounterView">
+        <MappingFragment StoreEntitySet="TvnCounterView">
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="CounterCode" ColumnName="CounterCode" />
+          <ScalarProperty Name="BranchTypeCode" ColumnName="BranchTypeCode" />
+          <ScalarProperty Name="CoCode" ColumnName="CoCode" />
+          <ScalarProperty Name="RgnCode" ColumnName="RgnCode" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
+          <ScalarProperty Name="WorkDayCode" ColumnName="WorkDayCode" />
+          <ScalarProperty Name="RdrCode" ColumnName="RdrCode" />
+          <ScalarProperty Name="CounterTypeCode" ColumnName="CounterTypeCode" />
+          <ScalarProperty Name="InstallDate" ColumnName="InstallDate" />
+          <ScalarProperty Name="FabrikNumber" ColumnName="FabrikNumber" />
+          <ScalarProperty Name="TimerCode" ColumnName="TimerCode" />
+          <ScalarProperty Name="TimerFabNumber" ColumnName="TimerFabNumber" />
+          <ScalarProperty Name="DomainCode" ColumnName="DomainCode" />
+          <ScalarProperty Name="DemandCoef" ColumnName="DemandCoef" />
+          <ScalarProperty Name="CntrUninsDate" ColumnName="CntrUninsDate" />
+          <ScalarProperty Name="UpdUninstDate" ColumnName="UpdUninstDate" />
+          <ScalarProperty Name="CntrStatCode" ColumnName="CntrStatCode" />
+          <ScalarProperty Name="ChngReson" ColumnName="ChngReson" />
+          <ScalarProperty Name="ChangeTypeCode" ColumnName="ChangeTypeCode" />
+          <ScalarProperty Name="CntrCoef" ColumnName="CntrCoef" />
+          <ScalarProperty Name="PrdcrCode" ColumnName="PrdcrCode" />
+          <ScalarProperty Name="CntrKind" ColumnName="CntrKind" />
+          <ScalarProperty Name="QtyDgt" ColumnName="QtyDgt" />
+          <ScalarProperty Name="CalCode" ColumnName="CalCode" />
+          <ScalarProperty Name="UpdInstDate" ColumnName="UpdInstDate" />
+          <ScalarProperty Name="InstallerCode" ColumnName="InstallerCode" />
+          <ScalarProperty Name="LastReadDate" ColumnName="LastReadDate" />
+          <ScalarProperty Name="VirtualLastReadDate" ColumnName="VirtualLastReadDate" />
+          <ScalarProperty Name="PolompNum" ColumnName="PolompNum" />
+          <ScalarProperty Name="CtInitialVolt" ColumnName="CtInitialVolt" />
+          <ScalarProperty Name="PtInitialVolt" ColumnName="PtInitialVolt" />
+          <ScalarProperty Name="CtSecondVolt" ColumnName="CtSecondVolt" />
+          <ScalarProperty Name="PtSecondVolt" ColumnName="PtSecondVolt" />
+          <ScalarProperty Name="Feeder" ColumnName="Feeder" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="InstallRequestCode" ColumnName="InstallRequestCode" />
+          <ScalarProperty Name="UnInstallRequestCode" ColumnName="UnInstallRequestCode" />
+          <ScalarProperty Name="TmpFld1" ColumnName="TmpFld1" />
+          <ScalarProperty Name="TmpFld2" ColumnName="TmpFld2" />
+          <ScalarProperty Name="TmpFld3" ColumnName="TmpFld3" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="SmartCounter" ColumnName="SmartCounter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TVNF50FormView">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.TVNF50FormView">
+        <MappingFragment StoreEntitySet="TVNF50FormView">
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="BnkDate" ColumnName="BnkDate" />
+          <ScalarProperty Name="RcptDateTime" ColumnName="RcptDateTime" />
+          <ScalarProperty Name="RcptType" ColumnName="RcptType" />
+          <ScalarProperty Name="ReceiptKind" ColumnName="ReceiptKind" />
+          <ScalarProperty Name="IEFileName" ColumnName="IEFileName" />
+          <ScalarProperty Name="FileDate" ColumnName="FileDate" />
+          <ScalarProperty Name="SRCode" ColumnName="SRCode" />
+          <ScalarProperty Name="RcptAmt" ColumnName="RcptAmt" />
+          <ScalarProperty Name="SaleCode" ColumnName="SaleCode" />
+          <ScalarProperty Name="BillID" ColumnName="BillID" />
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+          <ScalarProperty Name="BankCode" ColumnName="BankCode" />
+          <ScalarProperty Name="BankBranchCode" ColumnName="BankBranchCode" />
+          <ScalarProperty Name="RefrenceCode" ColumnName="RefrenceCode" />
+          <ScalarProperty Name="RgnCode" ColumnName="RgnCode" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="CoCode" ColumnName="CoCode" />
+          <ScalarProperty Name="ReceiptSource" ColumnName="ReceiptSource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TVNNEWForm30View">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.TVNNEWForm30View">
+        <MappingFragment StoreEntitySet="TVNNEWForm30View">
+          <ScalarProperty Name="SRCode" ColumnName="SRCode" />
+          <ScalarProperty Name="CoCode" ColumnName="CoCode" />
+          <ScalarProperty Name="RgnCode" ColumnName="RgnCode" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="VillageCode" ColumnName="VillageCode" />
+          <ScalarProperty Name="GeoState" ColumnName="GeoState" />
+          <ScalarProperty Name="ReadCode" ColumnName="ReadCode" />
+          <ScalarProperty Name="SaleCode" ColumnName="SaleCode" />
+          <ScalarProperty Name="ReceiptCode" ColumnName="ReceiptCode" />
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="SaleType" ColumnName="SaleType" />
+          <ScalarProperty Name="RcptType" ColumnName="RcptType" />
+          <ScalarProperty Name="BranchTypeCode" ColumnName="BranchTypeCode" />
+          <ScalarProperty Name="DurationType" ColumnName="DurationType" />
+          <ScalarProperty Name="SaleCoef" ColumnName="SaleCoef" />
+          <ScalarProperty Name="WorkDayCode" ColumnName="WorkDayCode" />
+          <ScalarProperty Name="RdrCode" ColumnName="RdrCode" />
+          <ScalarProperty Name="RdgSrl" ColumnName="RdgSrl" />
+          <ScalarProperty Name="BranchSrl" ColumnName="BranchSrl" />
+          <ScalarProperty Name="SaleYear" ColumnName="SaleYear" />
+          <ScalarProperty Name="SalePrd" ColumnName="SalePrd" />
+          <ScalarProperty Name="SaleDateTime" ColumnName="SaleDateTime" />
+          <ScalarProperty Name="SaleFormCode" ColumnName="SaleFormCode" />
+          <ScalarProperty Name="CrctnResonCode" ColumnName="CrctnResonCode" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfCode" ColumnName="TrfCode" />
+          <ScalarProperty Name="OrgCode" ColumnName="OrgCode" />
+          <ScalarProperty Name="GeoAreaCode" ColumnName="GeoAreaCode" />
+          <ScalarProperty Name="SelCode" ColumnName="SelCode" />
+          <ScalarProperty Name="CategoryCode" ColumnName="CategoryCode" />
+          <ScalarProperty Name="SeeCode" ColumnName="SeeCode" />
+          <ScalarProperty Name="ProblemCode" ColumnName="ProblemCode" />
+          <ScalarProperty Name="CrDbTot" ColumnName="CrDbTot" />
+          <ScalarProperty Name="CrDbOldYear" ColumnName="CrDbOldYear" />
+          <ScalarProperty Name="CrDbDelayDays" ColumnName="CrDbDelayDays" />
+          <ScalarProperty Name="FmlCode" ColumnName="FmlCode" />
+          <ScalarProperty Name="VoltCode" ColumnName="VoltCode" />
+          <ScalarProperty Name="PwrCal" ColumnName="PwrCal" />
+          <ScalarProperty Name="PwrCnt" ColumnName="PwrCnt" />
+          <ScalarProperty Name="CntrFlag" ColumnName="CntrFlag" />
+          <ScalarProperty Name="ChngCntrFlag" ColumnName="ChngCntrFlag" />
+          <ScalarProperty Name="BilTypeCode" ColumnName="BilTypeCode" />
+          <ScalarProperty Name="Phs" ColumnName="Phs" />
+          <ScalarProperty Name="Amp" ColumnName="Amp" />
+          <ScalarProperty Name="PAYLIMITDATE" ColumnName="PAYLIMITDATE" />
+          <ScalarProperty Name="DemageCoef" ColumnName="DemageCoef" />
+          <ScalarProperty Name="PwrIcn" ColumnName="PwrIcn" />
+          <ScalarProperty Name="PwrIcnExpDate" ColumnName="PwrIcnExpDate" />
+          <ScalarProperty Name="TmpExpireDate" ColumnName="TmpExpireDate" />
+          <ScalarProperty Name="PwrOverNum" ColumnName="PwrOverNum" />
+          <ScalarProperty Name="PwrOverFlag" ColumnName="PwrOverFlag" />
+          <ScalarProperty Name="DelayAmt" ColumnName="DelayAmt" />
+          <ScalarProperty Name="TaxAmt" ColumnName="TaxAmt" />
+          <ScalarProperty Name="SesnPeekAmt" ColumnName="SesnPeekAmt" />
+          <ScalarProperty Name="SubscAmt" ColumnName="SubscAmt" />
+          <ScalarProperty Name="TvAmt" ColumnName="TvAmt" />
+          <ScalarProperty Name="DiscAmt" ColumnName="DiscAmt" />
+          <ScalarProperty Name="PrdAmtOldYears" ColumnName="PrdAmtOldYears" />
+          <ScalarProperty Name="PrdAmt" ColumnName="PrdAmt" />
+          <ScalarProperty Name="BilAmt" ColumnName="BilAmt" />
+          <ScalarProperty Name="BilRndAmt" ColumnName="BilRndAmt" />
+          <ScalarProperty Name="VoltAmt" ColumnName="VoltAmt" />
+          <ScalarProperty Name="CurrRdgDate" ColumnName="CurrRdgDate" />
+          <ScalarProperty Name="RcptAmt" ColumnName="RcptAmt" />
+          <ScalarProperty Name="RcptAmtoldYears" ColumnName="RcptAmtoldYears" />
+          <ScalarProperty Name="RcptDateTime" ColumnName="RcptDateTime" />
+          <ScalarProperty Name="ReceiptKind" ColumnName="ReceiptKind" />
+          <ScalarProperty Name="BnkDate" ColumnName="BnkDate" />
+          <ScalarProperty Name="Item12PwrAmt" ColumnName="Item12PwrAmt" />
+          <ScalarProperty Name="Item12PeekAmt" ColumnName="Item12PeekAmt" />
+          <ScalarProperty Name="Item7PeekAmt" ColumnName="Item7PeekAmt" />
+          <ScalarProperty Name="Item5Amt" ColumnName="Item5Amt" />
+          <ScalarProperty Name="PwrAmt" ColumnName="PwrAmt" />
+          <ScalarProperty Name="UseAmountA" ColumnName="UseAmountA" />
+          <ScalarProperty Name="UseAmountR" ColumnName="UseAmountR" />
+          <ScalarProperty Name="PenaltyAmount" ColumnName="PenaltyAmount" />
+          <ScalarProperty Name="DifferentAmount" ColumnName="DifferentAmount" />
+          <ScalarProperty Name="ShoraAmount" ColumnName="ShoraAmount" />
+          <ScalarProperty Name="SaleRequestCode" ColumnName="SaleRequestCode" />
+          <ScalarProperty Name="RejectRequestCode" ColumnName="RejectRequestCode" />
+          <ScalarProperty Name="RejectDate" ColumnName="RejectDate" />
+          <ScalarProperty Name="PresureCode" ColumnName="PresureCode" />
+          <ScalarProperty Name="ServiceCode" ColumnName="ServiceCode" />
+          <ScalarProperty Name="TmpFld1" ColumnName="TmpFld1" />
+          <ScalarProperty Name="TmpFld2" ColumnName="TmpFld2" />
+          <ScalarProperty Name="TmpFld3" ColumnName="TmpFld3" />
+          <ScalarProperty Name="TmpFld4" ColumnName="TmpFld4" />
+          <ScalarProperty Name="TmpFld5" ColumnName="TmpFld5" />
+          <ScalarProperty Name="TmpFld6" ColumnName="TmpFld6" />
+          <ScalarProperty Name="TmpFld7" ColumnName="TmpFld7" />
+          <ScalarProperty Name="TmpFld8" ColumnName="TmpFld8" />
+          <ScalarProperty Name="TmpFld9" ColumnName="TmpFld9" />
+          <ScalarProperty Name="TmpFld10" ColumnName="TmpFld10" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="OperatorUserId" ColumnName="OperatorUserId" />
+          <ScalarProperty Name="OperatorDeptCode" ColumnName="OperatorDeptCode" />
+          <ScalarProperty Name="UseAct" ColumnName="UseAct" />
+          <ScalarProperty Name="UseReact" ColumnName="UseReact" />
+          <ScalarProperty Name="Prev_rdg_date" ColumnName="Prev_rdg_date" />
+          <ScalarProperty Name="OpSaleYear" ColumnName="OpSaleYear" />
+          <ScalarProperty Name="OpSalePrd" ColumnName="OpSalePrd" />
+          <ScalarProperty Name="OpRejectYear" ColumnName="OpRejectYear" />
+          <ScalarProperty Name="OpRejectPrd" ColumnName="OpRejectPrd" />
+          <ScalarProperty Name="OpRcptYear" ColumnName="OpRcptYear" />
+          <ScalarProperty Name="OpRcpPrd" ColumnName="OpRcpPrd" />
+          <ScalarProperty Name="PwrRead" ColumnName="PwrRead" />
+          <ScalarProperty Name="PwrUse" ColumnName="PwrUse" />
+          <ScalarProperty Name="CosFi" ColumnName="CosFi" />
+          <ScalarProperty Name="ExtraAmt" ColumnName="ExtraAmt" />
+          <ScalarProperty Name="UsePenalty" ColumnName="UsePenalty" />
+          <ScalarProperty Name="TmpDate1" ColumnName="TmpDate1" />
+          <ScalarProperty Name="TmpDate2" ColumnName="TmpDate2" />
+          <ScalarProperty Name="A1CorrectionUsage" ColumnName="A1CorrectionUsage" />
+          <ScalarProperty Name="A1CorrectionAmount" ColumnName="A1CorrectionAmount" />
+          <ScalarProperty Name="A2CorrectionUsage" ColumnName="A2CorrectionUsage" />
+          <ScalarProperty Name="A2CorrectionAmount" ColumnName="A2CorrectionAmount" />
+          <ScalarProperty Name="A3CorrectionUsage" ColumnName="A3CorrectionUsage" />
+          <ScalarProperty Name="A3CorrectionAmount" ColumnName="A3CorrectionAmount" />
+          <ScalarProperty Name="A4CorrectionUsage" ColumnName="A4CorrectionUsage" />
+          <ScalarProperty Name="A4CorrectionAmount" ColumnName="A4CorrectionAmount" />
+          <ScalarProperty Name="A5CorrectionUsage" ColumnName="A5CorrectionUsage" />
+          <ScalarProperty Name="A5CorrectionAmount" ColumnName="A5CorrectionAmount" />
+          <ScalarProperty Name="WarmA1Amount" ColumnName="WarmA1Amount" />
+          <ScalarProperty Name="WarmA1Used" ColumnName="WarmA1Used" />
+          <ScalarProperty Name="WarmA1Penalty" ColumnName="WarmA1Penalty" />
+          <ScalarProperty Name="WarmA1ExtraUsage" ColumnName="WarmA1ExtraUsage" />
+          <ScalarProperty Name="WarmA2Amount" ColumnName="WarmA2Amount" />
+          <ScalarProperty Name="WarmA2Used" ColumnName="WarmA2Used" />
+          <ScalarProperty Name="WarmA2Penalty" ColumnName="WarmA2Penalty" />
+          <ScalarProperty Name="WarmA2ExtraUsage" ColumnName="WarmA2ExtraUsage" />
+          <ScalarProperty Name="WarmA3Amount" ColumnName="WarmA3Amount" />
+          <ScalarProperty Name="WarmA3Used" ColumnName="WarmA3Used" />
+          <ScalarProperty Name="WarmA3Penalty" ColumnName="WarmA3Penalty" />
+          <ScalarProperty Name="WarmA3ExtraUsage" ColumnName="WarmA3ExtraUsage" />
+          <ScalarProperty Name="WarmA4Amount" ColumnName="WarmA4Amount" />
+          <ScalarProperty Name="WarmA4Used" ColumnName="WarmA4Used" />
+          <ScalarProperty Name="WarmA4Penalty" ColumnName="WarmA4Penalty" />
+          <ScalarProperty Name="WarmA4ExtraUsage" ColumnName="WarmA4ExtraUsage" />
+          <ScalarProperty Name="WarmA5Amount" ColumnName="WarmA5Amount" />
+          <ScalarProperty Name="WarmA5Used" ColumnName="WarmA5Used" />
+          <ScalarProperty Name="WarmA5Penalty" ColumnName="WarmA5Penalty" />
+          <ScalarProperty Name="WarmA5ExtraUsage" ColumnName="WarmA5ExtraUsage" />
+          <ScalarProperty Name="WarmDays" ColumnName="WarmDays" />
+          <ScalarProperty Name="WarmUsageStep" ColumnName="WarmUsageStep" />
+          <ScalarProperty Name="ColdA1Amount" ColumnName="ColdA1Amount" />
+          <ScalarProperty Name="ColdA1Used" ColumnName="ColdA1Used" />
+          <ScalarProperty Name="ColdA1Penalty" ColumnName="ColdA1Penalty" />
+          <ScalarProperty Name="ColdA1ExtraUsage" ColumnName="ColdA1ExtraUsage" />
+          <ScalarProperty Name="ColdA2Amount" ColumnName="ColdA2Amount" />
+          <ScalarProperty Name="ColdA2Used" ColumnName="ColdA2Used" />
+          <ScalarProperty Name="ColdA2Penalty" ColumnName="ColdA2Penalty" />
+          <ScalarProperty Name="ColdA2ExtraUsage" ColumnName="ColdA2ExtraUsage" />
+          <ScalarProperty Name="ColdA3Amount" ColumnName="ColdA3Amount" />
+          <ScalarProperty Name="ColdA3Used" ColumnName="ColdA3Used" />
+          <ScalarProperty Name="ColdA3Penalty" ColumnName="ColdA3Penalty" />
+          <ScalarProperty Name="ColdA3ExtraUsage" ColumnName="ColdA3ExtraUsage" />
+          <ScalarProperty Name="ColdA4Amount" ColumnName="ColdA4Amount" />
+          <ScalarProperty Name="ColdA4Used" ColumnName="ColdA4Used" />
+          <ScalarProperty Name="ColdA4Penalty" ColumnName="ColdA4Penalty" />
+          <ScalarProperty Name="ColdA4ExtraUsage" ColumnName="ColdA4ExtraUsage" />
+          <ScalarProperty Name="ColdA5Amount" ColumnName="ColdA5Amount" />
+          <ScalarProperty Name="ColdA5Used" ColumnName="ColdA5Used" />
+          <ScalarProperty Name="ColdA5Penalty" ColumnName="ColdA5Penalty" />
+          <ScalarProperty Name="ColdA5ExtraUsage" ColumnName="ColdA5ExtraUsage" />
+          <ScalarProperty Name="ColdDays" ColumnName="ColdDays" />
+          <ScalarProperty Name="ColdUsageStep" ColumnName="ColdUsageStep" />
+          <ScalarProperty Name="SummerA1Amount" ColumnName="SummerA1Amount" />
+          <ScalarProperty Name="SummerA1Used" ColumnName="SummerA1Used" />
+          <ScalarProperty Name="SummerA1Penalty" ColumnName="SummerA1Penalty" />
+          <ScalarProperty Name="SummerA1ExtraUsage" ColumnName="SummerA1ExtraUsage" />
+          <ScalarProperty Name="SummerA2Amount" ColumnName="SummerA2Amount" />
+          <ScalarProperty Name="SummerA2Used" ColumnName="SummerA2Used" />
+          <ScalarProperty Name="SummerA2Penalty" ColumnName="SummerA2Penalty" />
+          <ScalarProperty Name="SummerA2ExtraUsage" ColumnName="SummerA2ExtraUsage" />
+          <ScalarProperty Name="SummerA3Amount" ColumnName="SummerA3Amount" />
+          <ScalarProperty Name="SummerA3Used" ColumnName="SummerA3Used" />
+          <ScalarProperty Name="SummerA3Penalty" ColumnName="SummerA3Penalty" />
+          <ScalarProperty Name="SummerA3ExtraUsage" ColumnName="SummerA3ExtraUsage" />
+          <ScalarProperty Name="SummerA4Amount" ColumnName="SummerA4Amount" />
+          <ScalarProperty Name="SummerA4Used" ColumnName="SummerA4Used" />
+          <ScalarProperty Name="SummerA4Penalty" ColumnName="SummerA4Penalty" />
+          <ScalarProperty Name="SummerA4ExtraUsage" ColumnName="SummerA4ExtraUsage" />
+          <ScalarProperty Name="SummerA5Amount" ColumnName="SummerA5Amount" />
+          <ScalarProperty Name="SummerA5Used" ColumnName="SummerA5Used" />
+          <ScalarProperty Name="SummerA5Penalty" ColumnName="SummerA5Penalty" />
+          <ScalarProperty Name="SummerA5ExtraUsage" ColumnName="SummerA5ExtraUsage" />
+          <ScalarProperty Name="SummerDays" ColumnName="SummerDays" />
+          <ScalarProperty Name="SummerUsageStep" ColumnName="SummerUsageStep" />
+          <ScalarProperty Name="R2Amount" ColumnName="R2Amount" />
+          <ScalarProperty Name="R2Usage" ColumnName="R2Usage" />
+          <ScalarProperty Name="A1KWPrior" ColumnName="A1KWPrior" />
+          <ScalarProperty Name="A1KWCurr" ColumnName="A1KWCurr" />
+          <ScalarProperty Name="A2KWPrior" ColumnName="A2KWPrior" />
+          <ScalarProperty Name="A2KWCurr" ColumnName="A2KWCurr" />
+          <ScalarProperty Name="A3KWPrior" ColumnName="A3KWPrior" />
+          <ScalarProperty Name="A3KWCurr" ColumnName="A3KWCurr" />
+          <ScalarProperty Name="A4KWPrior" ColumnName="A4KWPrior" />
+          <ScalarProperty Name="A4KWCurr" ColumnName="A4KWCurr" />
+          <ScalarProperty Name="A5KWPrior" ColumnName="A5KWPrior" />
+          <ScalarProperty Name="A5KWCurr" ColumnName="A5KWCurr" />
+          <ScalarProperty Name="R1KWPrior" ColumnName="R1KWPrior" />
+          <ScalarProperty Name="R1KWCurr" ColumnName="R1KWCurr" />
+          <ScalarProperty Name="R2KWPrior" ColumnName="R2KWPrior" />
+          <ScalarProperty Name="R2KWCurr" ColumnName="R2KWCurr" />
+          <ScalarProperty Name="DemandMeterKW" ColumnName="DemandMeterKW" />
+          <ScalarProperty Name="InstallDate" ColumnName="InstallDate" />
+          <ScalarProperty Name="CntrCoef" ColumnName="CntrCoef" />
+          <ScalarProperty Name="QtyDgt" ColumnName="QtyDgt" />
+          <ScalarProperty Name="CalCode" ColumnName="CalCode" />
+          <ScalarProperty Name="TimerCode" ColumnName="TimerCode" />
+          <ScalarProperty Name="WarmPenaltyUse" ColumnName="WarmPenaltyUse" />
+          <ScalarProperty Name="ColdPenaltyUse" ColumnName="ColdPenaltyUse" />
+          <ScalarProperty Name="FreeAmount" ColumnName="FreeAmount" />
+          <ScalarProperty Name="DiscGasAmt" ColumnName="DiscGasAmt" />
+          <ScalarProperty Name="PwrExpAmt" ColumnName="PwrExpAmt" />
+          <ScalarProperty Name="DisableAmt" ColumnName="DisableAmt" />
+          <ScalarProperty Name="PeekExtraAmt" ColumnName="PeekExtraAmt" />
+          <ScalarProperty Name="LeastDiscountAmt" ColumnName="LeastDiscountAmt" />
+          <ScalarProperty Name="MiscUsage" ColumnName="MiscUsage" />
+          <ScalarProperty Name="MiscAmount" ColumnName="MiscAmount" />
+          <ScalarProperty Name="OutOfCntrUsage" ColumnName="OutOfCntrUsage" />
+          <ScalarProperty Name="OutOfCntrAmt" ColumnName="OutOfCntrAmt" />
+          <ScalarProperty Name="NTmfld1" ColumnName="NTmfld1" />
+          <ScalarProperty Name="NTmfld2" ColumnName="NTmfld2" />
+          <ScalarProperty Name="NTmfld3" ColumnName="NTmfld3" />
+          <ScalarProperty Name="NTmfld4" ColumnName="NTmfld4" />
+          <ScalarProperty Name="NTmfld5" ColumnName="NTmfld5" />
+          <ScalarProperty Name="NTmfld6" ColumnName="NTmfld6" />
+          <ScalarProperty Name="NTmfld7" ColumnName="NTmfld7" />
+          <ScalarProperty Name="NTmfld8" ColumnName="NTmfld8" />
+          <ScalarProperty Name="NTmfld9" ColumnName="NTmfld9" />
+          <ScalarProperty Name="DiscHighPower" ColumnName="DiscHighPower" />
+          <ScalarProperty Name="InsuranceAmount" ColumnName="InsuranceAmount" />
+          <ScalarProperty Name="AvarezBarghAmt" ColumnName="AvarezBarghAmt" />
+          <ScalarProperty Name="BillID" ColumnName="BillID" />
+          <ScalarProperty Name="ActTypeCode" ColumnName="ActTypeCode" />
+          <ScalarProperty Name="PenaltyWarm" ColumnName="PenaltyWarm" />
+          <ScalarProperty Name="PenaltyCold" ColumnName="PenaltyCold" />
+          <ScalarProperty Name="ColdA1Amt" ColumnName="ColdA1Amt" />
+          <ScalarProperty Name="ColdA2Amt" ColumnName="ColdA2Amt" />
+          <ScalarProperty Name="ColdA3Amt" ColumnName="ColdA3Amt" />
+          <ScalarProperty Name="ColdA4Amt" ColumnName="ColdA4Amt" />
+          <ScalarProperty Name="PrdAmtNet" ColumnName="PrdAmtNet" />
+          <ScalarProperty Name="WarmToColdRate" ColumnName="WarmToColdRate" />
+          <ScalarProperty Name="ColdDaysNet" ColumnName="ColdDaysNet" />
+          <ScalarProperty Name="TotalDays" ColumnName="TotalDays" />
+          <ScalarProperty Name="ColdA1Use" ColumnName="ColdA1Use" />
+          <ScalarProperty Name="ColdA2Use" ColumnName="ColdA2Use" />
+          <ScalarProperty Name="ColdA3Use" ColumnName="ColdA3Use" />
+          <ScalarProperty Name="ColdA4Use" ColumnName="ColdA4Use" />
+          <ScalarProperty Name="PaymentId" ColumnName="PaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcLawTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcLawTbl">
+        <MappingFragment StoreEntitySet="CalcLawTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="LawName" ColumnName="LawName" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcPenaltyRateTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcPenaltyRateTbl">
+        <MappingFragment StoreEntitySet="CalcPenaltyRateTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="Tempfld3" ColumnName="Tempfld3" />
+          <ScalarProperty Name="Tempfld2" ColumnName="Tempfld2" />
+          <ScalarProperty Name="Tempfld1" ColumnName="Tempfld1" />
+          <ScalarProperty Name="SRPS_AMT" ColumnName="SRPS_AMT" />
+          <ScalarProperty Name="Neg_2_PWR_RT" ColumnName="Neg_2_PWR_RT" />
+          <ScalarProperty Name="PWR_1_RT_COEF" ColumnName="PWR_1_RT_COEF" />
+          <ScalarProperty Name="PWR_0_RT_COEF" ColumnName="PWR_0_RT_COEF" />
+          <ScalarProperty Name="NegPwrRt" ColumnName="NegPwrRt" />
+          <ScalarProperty Name="NomratorType" ColumnName="NomratorType" />
+          <ScalarProperty Name="USE_STEP" ColumnName="USE_STEP" />
+          <ScalarProperty Name="SelCode" ColumnName="SelCode" />
+          <ScalarProperty Name="SubLawItem" ColumnName="SubLawItem" />
+          <ScalarProperty Name="LawItem" ColumnName="LawItem" />
+          <ScalarProperty Name="PresureCode" ColumnName="PresureCode" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcRateCodeTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcRateCodeTbl">
+        <MappingFragment StoreEntitySet="CalcRateCodeTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="Tempfld3" ColumnName="Tempfld3" />
+          <ScalarProperty Name="Tempfld2" ColumnName="Tempfld2" />
+          <ScalarProperty Name="Tempfld1" ColumnName="Tempfld1" />
+          <ScalarProperty Name="SRPS_AMT" ColumnName="SRPS_AMT" />
+          <ScalarProperty Name="PWR_2_RT_COEF" ColumnName="PWR_2_RT_COEF" />
+          <ScalarProperty Name="PWR_1_RT_COEF" ColumnName="PWR_1_RT_COEF" />
+          <ScalarProperty Name="PWR_0_RT_COEF" ColumnName="PWR_0_RT_COEF" />
+          <ScalarProperty Name="NegPwrRt" ColumnName="NegPwrRt" />
+          <ScalarProperty Name="discountcode" ColumnName="discountcode" />
+          <ScalarProperty Name="NomratorType" ColumnName="NomratorType" />
+          <ScalarProperty Name="USE_STEP" ColumnName="USE_STEP" />
+          <ScalarProperty Name="SelCode" ColumnName="SelCode" />
+          <ScalarProperty Name="SubLawItem" ColumnName="SubLawItem" />
+          <ScalarProperty Name="LawItem" ColumnName="LawItem" />
+          <ScalarProperty Name="PresureCode" ColumnName="PresureCode" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcRateTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcRateTbl">
+        <MappingFragment StoreEntitySet="CalcRateTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="AvarezBarghRate" ColumnName="AvarezBarghRate" />
+          <ScalarProperty Name="CityInsurance" ColumnName="CityInsurance" />
+          <ScalarProperty Name="VillageInsurance" ColumnName="VillageInsurance" />
+          <ScalarProperty Name="VILLAGE_RATE" ColumnName="VILLAGE_RATE" />
+          <ScalarProperty Name="maxrateperkw" ColumnName="maxrateperkw" />
+          <ScalarProperty Name="MaxAllowedUse" ColumnName="MaxAllowedUse" />
+          <ScalarProperty Name="PWR_ICN_EXPIRE_PENALTY_COEF" ColumnName="PWR_ICN_EXPIRE_PENALTY_COEF" />
+          <ScalarProperty Name="NONINDUSTRIAL_PENALTY_COEF" ColumnName="NONINDUSTRIAL_PENALTY_COEF" />
+          <ScalarProperty Name="DISABLE_DISCOUNT_KW" ColumnName="DISABLE_DISCOUNT_KW" />
+          <ScalarProperty Name="DISABLE_DISCOUNT_AMT" ColumnName="DISABLE_DISCOUNT_AMT" />
+          <ScalarProperty Name="FRIDAY_COEF" ColumnName="FRIDAY_COEF" />
+          <ScalarProperty Name="PEEK_COEF" ColumnName="PEEK_COEF" />
+          <ScalarProperty Name="PWR_CAL_COEF" ColumnName="PWR_CAL_COEF" />
+          <ScalarProperty Name="PWR_RT_MAX_TRF1" ColumnName="PWR_RT_MAX_TRF1" />
+          <ScalarProperty Name="RACT_RT_MAX" ColumnName="RACT_RT_MAX" />
+          <ScalarProperty Name="ACT3_RT_MAX" ColumnName="ACT3_RT_MAX" />
+          <ScalarProperty Name="ACT2_RT_MAX" ColumnName="ACT2_RT_MAX" />
+          <ScalarProperty Name="ACT1_RT_MAX" ColumnName="ACT1_RT_MAX" />
+          <ScalarProperty Name="TV_INCD_USE_MIN" ColumnName="TV_INCD_USE_MIN" />
+          <ScalarProperty Name="TV_MM_RT" ColumnName="TV_MM_RT" />
+          <ScalarProperty Name="TAX_SBSC_CMPT_COEF" ColumnName="TAX_SBSC_CMPT_COEF" />
+          <ScalarProperty Name="TAX_PT" ColumnName="TAX_PT" />
+          <ScalarProperty Name="PHS_3_MIN_AMT" ColumnName="PHS_3_MIN_AMT" />
+          <ScalarProperty Name="PHS_1_MIN_AMT" ColumnName="PHS_1_MIN_AMT" />
+          <ScalarProperty Name="PHS_3_SBSC_FIX_AMT" ColumnName="PHS_3_SBSC_FIX_AMT" />
+          <ScalarProperty Name="PHS_1_SBSC_FIX_AMT" ColumnName="PHS_1_SBSC_FIX_AMT" />
+          <ScalarProperty Name="SubLawItem" ColumnName="SubLawItem" />
+          <ScalarProperty Name="LawItem" ColumnName="LawItem" />
+          <ScalarProperty Name="PresureCode" ColumnName="PresureCode" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcSeasonDefineTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcSeasonDefineTbl">
+        <MappingFragment StoreEntitySet="CalcSeasonDefineTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="SeasonType" ColumnName="SeasonType" />
+          <ScalarProperty Name="SeasonPercent" ColumnName="SeasonPercent" />
+          <ScalarProperty Name="SeasonEndDate" ColumnName="SeasonEndDate" />
+          <ScalarProperty Name="SeasonStartDate" ColumnName="SeasonStartDate" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+          <ScalarProperty Name="SeasonCode" ColumnName="SeasonCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcTariffTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcTariffTbl">
+        <MappingFragment StoreEntitySet="CalcTariffTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="Tempfld11" ColumnName="Tempfld11" />
+          <ScalarProperty Name="Tempfld10" ColumnName="Tempfld10" />
+          <ScalarProperty Name="Tempfld9" ColumnName="Tempfld9" />
+          <ScalarProperty Name="Tempfld8" ColumnName="Tempfld8" />
+          <ScalarProperty Name="Tempfld7" ColumnName="Tempfld7" />
+          <ScalarProperty Name="Tempfld6" ColumnName="Tempfld6" />
+          <ScalarProperty Name="Tempfld5" ColumnName="Tempfld5" />
+          <ScalarProperty Name="Tempfld4" ColumnName="Tempfld4" />
+          <ScalarProperty Name="Tempfld3" ColumnName="Tempfld3" />
+          <ScalarProperty Name="Tempfld2" ColumnName="Tempfld2" />
+          <ScalarProperty Name="Tempfld1" ColumnName="Tempfld1" />
+          <ScalarProperty Name="OffMinDemand" ColumnName="OffMinDemand" />
+          <ScalarProperty Name="DiscountPercent" ColumnName="DiscountPercent" />
+          <ScalarProperty Name="FreeTrfCode" ColumnName="FreeTrfCode" />
+          <ScalarProperty Name="IsPenaltyOff" ColumnName="IsPenaltyOff" />
+          <ScalarProperty Name="IsDisable" ColumnName="IsDisable" />
+          <ScalarProperty Name="IgnoreSeason" ColumnName="IgnoreSeason" />
+          <ScalarProperty Name="TrfName" ColumnName="TrfName" />
+          <ScalarProperty Name="SubLawItem" ColumnName="SubLawItem" />
+          <ScalarProperty Name="LawItem" ColumnName="LawItem" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="TrfCode" ColumnName="TrfCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcTarrifForGeoTempTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcTarrifForGeoTempTbl">
+        <MappingFragment StoreEntitySet="CalcTarrifForGeoTempTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="RgnCode" ColumnName="RgnCode" />
+          <ScalarProperty Name="CoCode" ColumnName="CoCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcTarrifHeaderTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcTarrifHeaderTbl">
+        <MappingFragment StoreEntitySet="CalcTarrifHeaderTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="TrfName" ColumnName="TrfName" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcTarrifItemsTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcTarrifItemsTbl">
+        <MappingFragment StoreEntitySet="CalcTarrifItemsTbl">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="FreeTrfCode" ColumnName="FreeTrfCode" />
+          <ScalarProperty Name="IsPenaltyOff" ColumnName="IsPenaltyOff" />
+          <ScalarProperty Name="IsDisable" ColumnName="IsDisable" />
+          <ScalarProperty Name="IgnoreSeason" ColumnName="IgnoreSeason" />
+          <ScalarProperty Name="Tempfld2" ColumnName="Tempfld2" />
+          <ScalarProperty Name="Tempfld1" ColumnName="Tempfld1" />
+          <ScalarProperty Name="LawItemCode" ColumnName="LawItemCode" />
+          <ScalarProperty Name="TrfName" ColumnName="TrfName" />
+          <ScalarProperty Name="SelCode" ColumnName="SelCode" />
+          <ScalarProperty Name="PresureCode" ColumnName="PresureCode" />
+          <ScalarProperty Name="SubLawItem" ColumnName="SubLawItem" />
+          <ScalarProperty Name="LawItem" ColumnName="LawItem" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="TrfCode" ColumnName="TrfCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcTempratureRegionTbls">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcTempratureRegionTbl">
+        <MappingFragment StoreEntitySet="CalcTempratureRegionTbl">
+          <ScalarProperty Name="TmpFld3" ColumnName="TmpFld3" />
+          <ScalarProperty Name="TmpFld2" ColumnName="TmpFld2" />
+          <ScalarProperty Name="TmpFld1" ColumnName="TmpFld1" />
+          <ScalarProperty Name="AllowedUsage" ColumnName="AllowedUsage" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="trtype" ColumnName="trtype" />
+          <ScalarProperty Name="TrCoef" ColumnName="TrCoef" />
+          <ScalarProperty Name="TrName" ColumnName="TrName" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcRegionTypeViews">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcRegionTypeView">
+        <MappingFragment StoreEntitySet="CalcRegionTypeView">
+          <ScalarProperty Name="TmpFld3" ColumnName="TmpFld3" />
+          <ScalarProperty Name="TmpFld2" ColumnName="TmpFld2" />
+          <ScalarProperty Name="TmpFld1" ColumnName="TmpFld1" />
+          <ScalarProperty Name="trtype" ColumnName="trtype" />
+          <ScalarProperty Name="TrCoef" ColumnName="TrCoef" />
+          <ScalarProperty Name="TrName" ColumnName="TrName" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="RgnCode" ColumnName="RgnCode" />
+          <ScalarProperty Name="CoCode" ColumnName="CoCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcRgnCityByTrfTempViews">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcRgnCityByTrfTempView">
+        <MappingFragment StoreEntitySet="CalcRgnCityByTrfTempView">
+          <ScalarProperty Name="TmpFld3" ColumnName="TmpFld3" />
+          <ScalarProperty Name="TmpFld2" ColumnName="TmpFld2" />
+          <ScalarProperty Name="TmpFld1" ColumnName="TmpFld1" />
+          <ScalarProperty Name="AllowedUsage" ColumnName="AllowedUsage" />
+          <ScalarProperty Name="trtype" ColumnName="trtype" />
+          <ScalarProperty Name="TrCoef" ColumnName="TrCoef" />
+          <ScalarProperty Name="TrName" ColumnName="TrName" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+          <ScalarProperty Name="TrfType" ColumnName="TrfType" />
+          <ScalarProperty Name="TrfHCode" ColumnName="TrfHCode" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="RgnCode" ColumnName="RgnCode" />
+          <ScalarProperty Name="CoCode" ColumnName="CoCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CalcTempratureRegionViews">
+      <EntityTypeMapping TypeName="AndisheDBGolestanModel.CalcTempratureRegionView">
+        <MappingFragment StoreEntitySet="CalcTempratureRegionView">
+          <ScalarProperty Name="LawName" ColumnName="LawName" />
+          <ScalarProperty Name="trtype" ColumnName="trtype" />
+          <ScalarProperty Name="TrCoef" ColumnName="TrCoef" />
+          <ScalarProperty Name="TrName" ColumnName="TrName" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="CalLawId" ColumnName="CalLawId" />
+          <ScalarProperty Name="TRID" ColumnName="TRID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cfde56c418014a18b503abcef877fca2" Name="Diagram1" ZoomLevel="24">
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.TVNBranchDataView" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.TvnCounterView" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.TVNF50FormView" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.TVNNEWForm30View" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcLawTbl" Width="1.5" PointX="9.375" PointY="14" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcPenaltyRateTbl" Width="1.5" PointX="19.125" PointY="15.75" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcRateCodeTbl" Width="1.5" PointX="19.125" PointY="9.75" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcRateTbl" Width="1.5" PointX="16.875" PointY="11" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcSeasonDefineTbl" Width="1.5" PointX="13.875" PointY="8.5" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcTariffTbl" Width="1.5" PointX="13.875" PointY="32.125" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcTarrifForGeoTempTbl" Width="1.5" PointX="13.875" PointY="13.625" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcTarrifHeaderTbl" Width="1.5" PointX="11.625" PointY="13.625" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcTarrifItemsTbl" Width="1.5" PointX="9.375" PointY="0.75" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcTempratureRegionTbl" Width="1.5" PointX="11.625" PointY="8.125" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcRegionTypeView" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcRgnCityByTrfTempView" Width="1.5" PointX="3.375" PointY="11.75" />
+        <EntityTypeShape EntityType="AndisheDBGolestanModel.CalcTempratureRegionView" Width="1.5" PointX="13.375" PointY="0.75" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcTarrifHeaderTbl_CalculationLawTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcPenaltyRateTbl_CalcRateTbl1" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcRateCodeTbl_CalcRateTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTarrifHeaderTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcRateTbl_CalcTempratureRegionTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTarrifHeaderTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcSeasonDefineTbl_CalcTempratureRegionTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_CalcTariffTbl_CalcTarrifHeaderTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTarrifHeaderTbl" />
+        <AssociationConnector Association="AndisheDBGolestanModel.FK_TarrifForGeoTempTbl_CalcTempratureRegionTbl" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

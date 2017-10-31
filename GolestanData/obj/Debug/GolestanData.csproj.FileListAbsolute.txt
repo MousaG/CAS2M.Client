@@ -1,0 +1,10 @@
+C:\TfsProject\CAS2MClient\GolestanData\bin\Debug\GolestanData.dll.config
+C:\TfsProject\CAS2MClient\GolestanData\bin\Debug\GolestanData.dll
+C:\TfsProject\CAS2MClient\GolestanData\bin\Debug\GolestanData.pdb
+C:\TfsProject\CAS2MClient\GolestanData\bin\Debug\EntityFramework.dll
+C:\TfsProject\CAS2MClient\GolestanData\bin\Debug\EntityFramework.SqlServer.dll
+C:\TfsProject\CAS2MClient\GolestanData\bin\Debug\EntityFramework.xml
+C:\TfsProject\CAS2MClient\GolestanData\bin\Debug\EntityFramework.SqlServer.xml
+C:\TfsProject\CAS2MClient\GolestanData\obj\Debug\GolestanData.dll
+C:\TfsProject\CAS2MClient\GolestanData\obj\Debug\GolestanData.pdb
+C:\TfsProject\CAS2MClient\GolestanData\obj\Debug\GolestanData.csprojResolveAssemblyReference.cache

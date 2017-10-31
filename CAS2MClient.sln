@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS2MClient", "CAS2MClient\CAS2MClient.csproj", "{33A007DB-1E4F-4F7C-A009-47FFA77A6DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS2MClientDataMan", "CAS2MClientDataMan\CAS2MClientDataMan.csproj", "{2F521E3A-5832-4033-B91A-7A778D62586B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolestanData", "GolestanData\GolestanData.csproj", "{1A3B5BC4-31CF-46D8-B22A-537F7C080263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS2MWinTest", "CAS2MWinTest\CAS2MWinTest.csproj", "{558C7E0D-64E7-4B91-96F2-6423C8CA0DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33A007DB-1E4F-4F7C-A009-47FFA77A6DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A007DB-1E4F-4F7C-A009-47FFA77A6DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A007DB-1E4F-4F7C-A009-47FFA77A6DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A007DB-1E4F-4F7C-A009-47FFA77A6DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F521E3A-5832-4033-B91A-7A778D62586B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F521E3A-5832-4033-B91A-7A778D62586B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F521E3A-5832-4033-B91A-7A778D62586B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F521E3A-5832-4033-B91A-7A778D62586B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3B5BC4-31CF-46D8-B22A-537F7C080263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3B5BC4-31CF-46D8-B22A-537F7C080263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3B5BC4-31CF-46D8-B22A-537F7C080263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3B5BC4-31CF-46D8-B22A-537F7C080263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558C7E0D-64E7-4B91-96F2-6423C8CA0DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558C7E0D-64E7-4B91-96F2-6423C8CA0DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558C7E0D-64E7-4B91-96F2-6423C8CA0DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558C7E0D-64E7-4B91-96F2-6423C8CA0DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
