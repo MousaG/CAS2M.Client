@@ -22,12 +22,13 @@ namespace CAS2MWinTest
         {
             try
             {
+                counted = false;
                 var ds = new DataSender();
                 ds.OnProgress += new EventHandler(ShowProgress);
-                ds.OnProgress += new EventHandler(ShowError);
+                ds.OnError += new EventHandler(ShowError);
                 await ds.FetchAndSendData(dtFromDate.Value, dtToDate.Value, (CAS2MClientDataMan.Enums.EntityType)Convert.ToInt32(comboBox1.Text), new Guid(txToken.Text), txTask.Text, new Uri(txUrl.Text));
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 EventManager.Inst.WriteError("run", ex, 441);
                 MessageBox.Show(ex.Message);
@@ -38,8 +39,8 @@ namespace CAS2MWinTest
             try
             {
                 var ds = new DataSender();
-                ds.OnProgress += new EventHandler(ShowProgress);  
-                return  ds.SetTask(new Uri(txUrl.Text), dtFromDate.Value, dtToDate.Value, (CAS2MClientDataMan.Enums.EntityType)Convert.ToInt32(comboBox1.Text));
+                ds.OnProgress += new EventHandler(ShowProgress);
+                return ds.SetTask(new Uri(txUrl.Text), dtFromDate.Value, dtToDate.Value, (CAS2MClientDataMan.Enums.EntityType)Convert.ToInt32(comboBox1.Text));
             }
             catch (Exception ex)
             {
@@ -48,6 +49,8 @@ namespace CAS2MWinTest
             }
             return null;
         }
+        public bool counted = false;
+
         private void button1_Click(object sender, EventArgs e)
         {
             RunAsync();
@@ -57,7 +60,13 @@ namespace CAS2MWinTest
             this.Invoke((MethodInvoker)delegate
             {
 
-                label7.Text=sender.ToString();
+                if (!counted)
+                {
+                    label8.Text = sender.ToString();
+                    counted = true;
+                }
+                else
+                    label7.Text = sender.ToString();
             });
         }
         public void ShowError(object sender, EventArgs e)

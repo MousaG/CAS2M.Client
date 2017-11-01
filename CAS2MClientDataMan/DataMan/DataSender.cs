@@ -24,7 +24,6 @@ namespace CAS2MClientDataMan.DataMan
         int recordsPerPage=0;
         int pageSize=100;
         int page=1;
-
         public EventHandler OnProgress;
         public EventHandler OnError;
         public DataSender()
@@ -156,7 +155,10 @@ namespace CAS2MClientDataMan.DataMan
                 int blockcount = 1000;
                 int progress = 0;
                 long ct = new DataCounter().Count<TSource>(formCode, predicate);
-
+                if (OnProgress != null)
+                {
+                    OnProgress(ct,new EventArgs());
+                }
                 EventManager.Inst.WriteInfo(string.Format("start sending data formcode={0} , count={1}", formCode, ct), 801);
                 RegisterTotalCount(ct, taskToken, callbackUrl);
 
