@@ -83,6 +83,7 @@
     <Compile Include="Domain\CAS2MClientDomain.cs" />
     <Compile Include="Domain\ErrorInput.cs" />
     <Compile Include="Domain\PublicJsonResult.cs" />
+    <Compile Include="Domain\TaskData.cs" />
     <Compile Include="Domain\TvnTarrifData.cs" />
     <Compile Include="Enums\CAS2MEnum.cs" />
     <Compile Include="Errors\ErrorOutput.cs" />

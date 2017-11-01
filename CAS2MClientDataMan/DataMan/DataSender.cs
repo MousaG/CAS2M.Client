@@ -20,10 +20,10 @@ namespace CAS2MClientDataMan.DataMan
     {
         string serviceUrlToSendData;
         int SentItemCount;
-        int TotalItemCount;
-        int recordsPerPage;
-        int pageSize;
-        int page;
+        int TotalItemCount=0;
+        int recordsPerPage=0;
+        int pageSize=100;
+        int page=1;
 
         public DataSender()
         {
@@ -121,7 +121,29 @@ namespace CAS2MClientDataMan.DataMan
             }
             return url + "?Token=" + Token;
         }
+        public TaskData SetTask(Uri callbackUrl, DateTime fromDate, DateTime toDate,EntityType tp)
+        {
+            var url = callbackUrl.ToString() + "/SetTask?fromDate=" + fromDate + "&toDate=" + toDate + "&entityType="+tp.GetHashCode().ToString();
+            //GetHttp(url);
+            var response = new HttpClient().GetAsync(url).Result;
+         if (response.IsSuccessStatusCode)
+            {
+                var t = response.Content.ReadAsAsync<object>().Result;
+                var m = JsonConvert.DeserializeObject<TaskData>(t.ToString());
 
+                if (!m.result)
+                {
+                    throw new Exception(m.message);
+                }
+                return m;
+            }
+            else
+            {
+                EventManager.Inst.WriteError("Invalid status Code" + response.StatusCode.ToString(), 1);
+                throw new Exception("failed to call PostHttp");
+                //Something has gone wrong, handle it here
+            }
+        }
         private async Task GetFdata<T, TSource>(int formCode, DateTime fromDate, DateTime toDate, Expression<Func<TSource, bool>> predicate, Guid taskToken, string taskId, Uri callbackUrl)
         {
             int totalcount = 0;

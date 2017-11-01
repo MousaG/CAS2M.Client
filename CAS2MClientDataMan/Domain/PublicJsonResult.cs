@@ -13,4 +13,5 @@ namespace CAS2MClientDataMan.Domain
         public string id { get; set; }
         public Guid guid { get; set; }
     }
+
 }
