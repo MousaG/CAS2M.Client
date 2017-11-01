@@ -104,7 +104,6 @@
             this.txToken.Name = "txToken";
             this.txToken.Size = new System.Drawing.Size(310, 20);
             this.txToken.TabIndex = 6;
-            this.txToken.Text = "756b3ae1-a737-4c15-b9e3-cc13929e1789";
             // 
             // label3
             // 
@@ -153,7 +152,6 @@
             this.txTask.Name = "txTask";
             this.txTask.Size = new System.Drawing.Size(310, 20);
             this.txTask.TabIndex = 12;
-            this.txTask.Text = "10";
             // 
             // label5
             // 
