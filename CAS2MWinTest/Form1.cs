@@ -74,13 +74,13 @@ namespace CAS2MWinTest
             this.Invoke((MethodInvoker)delegate
             {
 
-                label7.Text = sender.ToString();
-                MessageBox.Show(sender.ToString());
+                textBox1.Text = sender.ToString();
             });
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
             var tdata = SetTask();
 
             if (tdata != null)
