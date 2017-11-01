@@ -25,6 +25,8 @@ namespace CAS2MClientDataMan.DataMan
         int pageSize=100;
         int page=1;
 
+        public EventHandler OnProgress;
+        public EventHandler OnError;
         public DataSender()
         {
             recordsPerPage = 1000;
@@ -170,7 +172,10 @@ namespace CAS2MClientDataMan.DataMan
 
                     totalcount += item.Count;
                     progress += item.Count;
-
+                    if(OnProgress!=null)
+                    {
+                        OnProgress(totalcount, new EventArgs());
+                    }
                     //  new DataUploader<T>().SendData(new DataPackage<T>() { entityType = (EntityType)formCode, callbackUrl = callbackUrl, data = item });
                     EventManager.Inst.WriteInfo(string.Format(" sending data formcode={0} , count={1}", formCode, item.Count), 802);
                     bool issuscess = await this.PostHttp(serviceUrlToSendData, item);//.Result;
@@ -219,7 +224,10 @@ namespace CAS2MClientDataMan.DataMan
             try
             {
 
-
+                if(OnError != null)
+                {
+                    OnError(description + systemMsg,new EventArgs());
+                }
                 EventManager.Inst.WriteError(description + systemMsg, null, 500);
                 var url = callbackUrl.ToString() + "/ReportError?taskToken=" + token + "&title=" + title + "&description=" + description + "&systemMsg=" + systemMsg;
 
